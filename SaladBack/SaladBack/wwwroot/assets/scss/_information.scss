@@ -1,0 +1,284 @@
+main {
+    font-family: "AnekTamil-Medium";
+
+    .salad-background {
+        .passage {
+            margin: 85px 0 10px 3px;
+
+            span {
+                font-size: 15px;
+
+                a {
+                    transition: .3s;
+                }
+
+                a:hover {
+                    color: #23BE7B;
+                }
+
+                .home {
+                    color: #A6ABC4;
+                }
+
+                .shop {
+                    color: #525666;
+                }
+            }
+        }
+
+        .page-name {
+            margin: 0 0 7px 0;
+
+            h1 {
+                color: #23BE7B;
+            }
+        }
+    }
+
+    #Imformation {
+        color: lightgrey;
+
+        .leftDiv {
+            border-right: 1px solid gray;
+
+            .title {
+                .titleList {
+                    width: 99%;
+                    display: flex;
+                    list-style: none;
+
+
+                    a {
+                        color: lightgrey;
+                        text-decoration: none;
+                    }
+
+                    
+                    :nth-child(1) a {
+                        color: #2EDC87;
+                    }
+                    
+                    
+                    li {
+                        &:nth-child(1){
+                            border-bottom: 2px solid #2EDC87;
+                        }
+                        padding: 10px 40px;
+                        border-bottom: 1px solid lightgray;
+
+                        &:hover {
+                            color: #2EDC87;
+                            border-bottom: 1px solid #2EDC87;
+                        }
+                    }
+
+                }
+            }
+
+            .contactInfo {
+                margin-top: 30px;
+
+                h5 {
+                    color: #525666;
+                }
+
+                .input {
+                    margin-top: 20px;
+
+                    label {
+                        color: #525666;
+                    }
+
+                    input {
+                        width: 90%;
+                        height: 40px;
+                        border: 1px solid lightgray;
+                        border-radius: 4px;
+                        outline: none;
+                        color: gray;
+                        font-size: 15px;
+                    }
+
+                    ::placeholder {
+                        color: lightgrey;
+                        opacity: 1;
+                        /* Firefox */
+                    }
+                }
+            }
+
+            .delivery {
+                margin-top: 60px;
+
+                h5 {
+                    color: #525666;
+                }
+
+                .allInputs {
+                    label {
+                        color: #525666;
+                        display: inline;
+                        margin-left: 30px;
+                        padding: 10px 0;
+                        height: 20px;
+
+                    }
+
+                    .input {
+                        margin-left: 5px;
+                        display: inline;
+                        width: 30%;
+                        padding: 4px 10px;
+                        margin: 20px -2px;
+                        height: 40px;
+                        border: 1px solid lightgray;
+                        border-radius: 4px;
+                        outline: none;
+                        color: gray;
+                        font-size: 15px;
+                    }
+
+                    ::placeholder {
+                        color: lightgrey;
+                        opacity: 1;
+                    }
+
+                    #country {
+                        margin-left: 30px;
+                        width: 85%;
+                    }
+
+                    #address {
+                        margin-left: 40px;
+                    }
+
+                    #Apart {
+                        margin: 0;
+                    }
+
+                    textarea {
+                        margin-left: 30px;
+                        width: 85%;
+                        border: 1px solid lightgray;
+                        border-radius: 4px;
+                        outline: none;
+                        color: gray;
+                        font-size: 15px;
+                    }
+                }
+
+                .buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 40px;
+
+                    button {
+                        margin: 0 30px;
+                        width: 70%;
+                        height: 50px;
+                        border-radius: 30px;
+                        border: 1px solid #525666;
+
+                    }
+
+                    .submit {
+                        margin-right: 80px;
+                        width: 70%;
+                        height: 50px;
+                        border: none;
+                        border-radius: 30px;
+                        background-color: #23BE7B;
+                        color: white;
+                        transition: .3s;
+
+                        &:hover {
+                            background-color: #1b9e65;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rightDiv {
+            color: #525666;
+            background-color: #FAFAFB;
+
+            .products {
+                display: flex;
+                margin: 30px 10px;
+
+                .image {
+                    img {
+                        width: 70px;
+                    }
+                }
+
+                .name-price {
+                    width: 100%;
+                    margin: 0 20px;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+
+            .promoCode {
+                .inp-button {
+                    display: flex;
+                    justify-content: space-between;
+                    input {
+                        width: 60%;
+                        height: 40px;
+                        border: 1px solid lightgray;
+                        border-radius: 4px;
+                        outline: none;
+                        color: gray;
+                        font-size: 15px;
+                    }
+
+                    ::placeholder {
+                        color: lightgrey;
+                        opacity: 1;
+                        /* Firefox */
+                    }
+
+                    button {
+                        border: 1px solid #2EDC87;
+                        color: #2EDC87;
+                        border-radius: 40px;
+                        margin-right: 10px;
+                        width: 24%;
+                        background-color: white;
+
+                        &:hover{
+                            color: white;
+                            background-color:#2EDC87;
+                        }
+                    }
+                }
+            }
+
+            .result{
+                .ress{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .ress:nth-child(2){
+                    p:nth-child(2){
+                        color: #c9c9ce;
+                    }
+                }
+                .ress:nth-child(3){
+                    p:nth-child(1){
+                        color: #c9c9ce;
+                    }
+                    p:nth-child(2){
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

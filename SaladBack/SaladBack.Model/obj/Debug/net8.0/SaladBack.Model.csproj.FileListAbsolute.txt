@@ -1,0 +1,11 @@
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\bin\Debug\net8.0\SaladBack.Model.deps.json
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\bin\Debug\net8.0\SaladBack.Model.dll
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\bin\Debug\net8.0\SaladBack.Model.pdb
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.AssemblyInfoInputs.cache
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.AssemblyInfo.cs
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.csproj.CoreCompileInputs.cache
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.dll
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\refint\SaladBack.Model.dll
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Model.pdb
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\ref\SaladBack.Model.dll

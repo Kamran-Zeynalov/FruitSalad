@@ -1,0 +1,459 @@
+
+body {
+    main {
+        #FruitCustomize {
+            .customizeAndImage {
+                display: flex;
+                justify-content: space-between;
+
+                .customizeImage {
+                    background-image: url("../images/basephoto.jpg");
+                    background-position: top;
+                    background-repeat: no-repeat;
+                    width: 100%;
+
+                    @media only screen and (max-width: 820px) {
+                        & {
+                            height: 600px;
+                            background-size: 100%;
+                        }
+                    }
+
+                    @media only screen and (max-width:391px) {
+                        & {
+                            height: 330px;
+                            background-size: 100%;
+                        }
+                    }
+
+                    .button {
+                        margin-top: 25px;
+                        display: none;
+                        text-align: end;
+                        position: relative;
+                        top: 500px;
+
+                        @media only screen and (max-width: 820px) {
+                            & {
+                                background-size: 100%;
+                                display: block;
+                            }
+
+                            button {
+                                color: #6E7286;
+                                border-radius: 30px 0 0 30px;
+                                padding: 10px 12px;
+                                font-size: 17px;
+                                border: none;
+                                transition: .3s;
+
+                                &:hover {
+                                    background-color: white;
+                                    color: #2EDC87;
+                                }
+
+                                i {
+                                    font-size: 15px;
+                                    margin: 7px 0 7px 10px;
+                                }
+                            }
+
+                        }
+
+                        @media only screen and (max-width: 391px) {
+                            & {
+                                top: 230px;
+                            }
+
+                            button {
+                                color: #6E7286;
+                                border-radius: 30px 0 0 30px;
+                                padding: 5px 12px;
+                                font-size: 13px;
+                                border: none;
+                                transition: .3s;
+
+                                &:hover {
+                                    background-color: white;
+                                    color: #2EDC87;
+                                }
+
+                                i {
+                                    font-size: 12px;
+                                    margin: 7px 0 7px 10px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .customizeText {
+                    background-color: #23BE7B;
+                    width: 778px;
+                    height: 618px;
+
+                    .text-button {
+                        position: relative;
+                        top: 100px;
+                        left: 20px;
+                        color: #126940;
+
+                        .text {
+                            p {
+                                font-family: AnekTamil-Regular;
+                            }
+
+                            h1 {
+                                font-size: 60px;
+                                font-family: AnekTamil-SemiBold;
+                            }
+                        }
+
+                        .button {
+                            margin-top: 25px;
+
+                            button {
+                                color: #6E7286;
+                                border-radius: 30px;
+                                padding: 13px 20px;
+                                border: none;
+                                transition: .3s;
+                                font-family: AnekTamil-Medium;
+
+                                &:hover {
+                                    background-color: white;
+                                    color: #2EDC87;
+                                }
+
+                                i {
+                                    margin: 7px 10px;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        #SpecialOffers {
+            .specialTitle {
+                h1 {
+                    font-family: AnekTamil-SemiBold;
+                    color: #23BE7B;
+
+                    @media only screen and (max-width: 820px) {
+                        & {
+                            text-align: center;
+
+                        }
+                    }
+                }
+            }
+
+            .seeMore {
+                text-align: end;
+
+                @media only screen and (max-width: 820px) {
+                    & {
+                        margin-top: 0;
+                        text-align: center;
+                    }
+                }
+
+                p {
+                    a {
+                        color: #2EDC87;
+                    }
+                }
+
+            }
+
+            .image-info {
+                margin-top: 25px;
+
+                .image-icon {
+                    position: relative;
+                    width: 288px;
+
+                    .image {
+                        img {
+                            width: 288;
+                            height: 268px;
+                        }
+
+                    }
+
+                    .heartIcon {
+                        padding: 10px;
+                        background-color: #F6F7F9;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 0 0 0 12px;
+
+                        i {
+                            font-size: 20px;
+                            color: #8A8FA5;
+                            transition: .3s;
+                        }
+
+                        i:hover {
+                            color: #2EDC87;
+                        }
+                    }
+                }
+
+                .info {
+                    width: 288px;
+                    background-color: #F9F9F9;
+                    padding: 6px;
+
+                    .rating {
+                        display: flex;
+                        color: #2EDC87;
+
+                        .star-icon {
+                            padding: 0 7px;
+                        }
+                    }
+
+                    .name-comp {
+                        h3 {
+                            a{
+                                color: #525666;
+                                text-decoration: none;
+                            }
+                            font-family: AnekTamil-SemiBold;
+                        }
+
+                        p {
+                            color: #8A8FA5;
+                            font-family: AnekTamil-Regular;
+                        }
+                    }
+
+                    .dollar-price {
+                        color: #6E7286;
+                        font-family: AnekTamil-SemiBold;
+                    }
+                }
+            }
+
+            margin-top: 70px;
+        }
+
+        #Process {
+            .allInfo {
+                background-color: #126940;
+                padding-bottom: 60px;
+
+                .process-title-desc {
+                    padding: 30px 0;
+                    color: #23BE7B;
+
+                    h2 {
+                        width: 40%;
+                        font-family: AnekTamil-SemiBold;
+
+                        @media only screen and (max-width: 820px) {
+                            & {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-family: AnekTamil-Regular;
+                        width: 67%;
+
+                        @media only screen and (max-width: 820px) {
+                            & {
+                                margin-top: 10px;
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                .processFruits1 {
+                    background-color: #EDC641;
+                }
+
+                .processFruits2 {
+                    background-color: #F68048;
+                }
+
+                .processFruits3 {
+                    background-color: #F2E0B1;
+                }
+
+                .processFruits4 {
+                    background-color: #23BE7B;
+                }
+
+                .processes {
+
+                    @media only screen and (min-width: 822px) {
+                        & {
+                            display: flex;
+                            flex-wrap: nowrap;
+                            gap: 10px;
+                        }
+                    }
+
+                    .col-12 {
+                        border-radius: 10px;
+                        padding: 50px 0 22px 30px;
+
+                        .process-image {
+                            width: 70px;
+                            height: 57px;
+
+                            img {
+                                width: 100%;
+
+                            }
+                        }
+
+                        .process-name,
+                        .process-info {
+                            .name1 {
+                                color: #776320;
+                            }
+
+                            .name2 {
+                                color: #864323;
+                            }
+
+                            .name3 {
+                                color: #78705C;
+                            }
+
+                            .name4 {
+                                color: #126940;
+                            }
+
+                            h2 {
+                                font-family: AnekTamil-SemiBold;
+                                padding: 20px 0;
+                            }
+                        }
+
+                        .process-info {
+                            margin-top: 100px;
+
+
+                            @media only screen and (max-width: 820px) {
+                                & {
+                                    margin-top: 30px;
+
+                                }
+                            }
+
+                            p {
+                                width: 82%;
+                                font-family: AnekTamil-Medium;
+                            }
+                        }
+                    }
+                }
+            }
+
+            margin-top: 100px;
+        }
+
+        #Orchard {
+            .info-image {
+                display: flex;
+                justify-content: space-between;
+                background-color: #F2E0B1;
+
+                @media only screen and (max-width: 820px) {
+                    & {
+                        height: 220px;
+                    }
+                }
+
+                .title-button {
+                    width: 50%;
+                    position: relative;
+                    top: 130px;
+                    left: 170px;
+
+                    @media only screen and (max-width: 820px) {
+                        & {
+                            top: 40px;
+                            width: 100%;
+                            left: 0;
+                            margin-left: 40px;
+                        }
+                    }
+
+                    .title {
+                        width: 60%;
+
+                        p {
+                            color: #78705C;
+                            line-height: 10px;
+                        }
+
+                        h1 {
+                            font-family: AnekTamil-SemiBold;
+                            font-size: 54px;
+                            color: #78705C;
+
+                            @media only screen and (max-width: 820px) {
+                                & {
+                                    font-size: 20px;
+
+                                }
+                            }
+                        }
+                    }
+
+                    .button {
+                        button {
+                            border-radius: 20px;
+                            padding: 10px 22px;
+                            color: #6E7286;
+                            background-color: white;
+                            border-color: #6E7286;
+
+                            @media only screen and (max-width: 820px) {
+                                & {
+                                    padding: 4px 10px;
+                                    font-size: 11px;
+                                }
+                            }
+
+                            &:hover {
+
+                                color: #78705C;
+                                background-color: #F2E0B1;
+                                border-color: white;
+                            }
+                        }
+                    }
+                }
+
+                .orchardImage {
+                    width: 778px;
+
+                    @media only screen and (max-width: 820px) {
+                        & {
+                            display: none;
+
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+}

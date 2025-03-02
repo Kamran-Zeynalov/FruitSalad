@@ -1,0 +1,15 @@
+@import "./basket";
+@import "./create";
+@import "./detail";
+@import "./header-footer";
+@import "./information";
+@import "./NotFound";
+@import "./payment";
+@import "./shop";
+@import "./style";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

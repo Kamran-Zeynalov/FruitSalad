@@ -1,0 +1,332 @@
+﻿@model FruitSalad
+@{
+    ViewBag.Title = "Frut Salad";
+    List<Fruit> allFruits = ViewBag.AllFruits;
+}
+<div class="container">
+    <div class="row mb-3 salad-background">
+        <div class=" col-12 passage">
+            <span><a asp-controller="Home" asp-action="Index" class="home">Home</a></span> /
+            <span><a href="./shop.html" class="shop">Fruit mix</a></span> /
+            <span><a asp-controller="Product" asp-action="Detail" asp-route-id="@Model.Id" class="detail">Acai Superberry Bowl</a></span>
+        </div>
+    </div>
+</div>
+
+<section id="Detail">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-6">
+                <div class="image">
+                    <img src="~/assets/images/@Model.SaladImages?.FirstOrDefault()?.Url" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form action="">
+                    <div class="name-price">
+                        <h1>@Model.Name</h1>
+                        <p>$<span>@Model.Price.ToString("0.##")</span></p>
+                    </div>
+                    <div class="rating">
+                        <div class="star-icon">
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <div class="point">
+                            <p>@Model.Rating.ToString("0.##")</p>
+                        </div>
+                        <div class="review">
+                            <p>Feedback <i class="bi bi-chevron-right"></i></p>
+                        </div>
+                    </div>
+                    <div class="composition">
+                        @foreach (var f in Model.FruitSaladFruits.ToList())
+                        {
+                        <div class="fruit">
+                            <p>@f.Fruit.Name</p>
+                            <div class="icon">
+                                <i class="bi bi-x-lg"></i>
+                            </div>
+                        </div>
+                            
+                        }
+                 
+
+                    </div>
+                    <div class="case-size">
+                        <div class="select-size">
+                            <h4>Select Size</h4>
+                        </div>
+                        <div class="sizes">
+                            <ul>
+                                @foreach (var size in Model.Sizes)
+                                {
+                                <li>
+                                    <p>@size.Name - <span>@size.Ccal cal </span></p><input type="radio" name="size"
+                                                                                 id="classic" checked>
+                                </li>
+                                    
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="toppings">
+                        <div class="add-toppings">
+                            <h4>
+                                Add toppings
+                            </h4>
+                        </div>
+                        <div class="topping-fruit">
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit1.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>apple</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit8.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>strawberrie</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit7.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>raspberrie</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit6.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>kiwi</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit5.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>almond milk</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit4.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>almond</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit3.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>coconut</p>
+                                </div>
+                            </div>
+                            <div class="image-name">
+                                <div class="image">
+                                    <img src="~/assets/images/fruit2.png" alt="">
+                                </div>
+                                <div class="name">
+                                    <p>granota</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quantity-order">
+                        <div class="name">
+                            <h4>Quantity</h4>
+                        </div>
+                        <div class="quantity">
+                            <input type="number" name="" id="" value="1">
+                        </div>
+                        <div class="order">
+                            <div class="button">
+                                <button type="submit">Add to Order - $6.40</button>
+                            </div>
+                            <div class="save-icon">
+                                <i class="bi bi-bookmark-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Vitamins">
+    <div class="container">
+        <div class="row gx-5 gy-5">
+                        <div style="margin-left:15px;" class="title mb-0">
+                            <h4>Allergens</h4>
+                        </div>
+            @foreach (var f in allFruits)
+            {
+                <div class="col-lg-6">
+                    <div class="vita">
+                        <div class="fruit-info">
+                            <div class="fruit-name-image">
+                                <div class="name">
+                                    <h6>@f.Name</h6>
+                                </div>
+                                <div class="image">
+                                    <img src="~/assets/images/fruit8.png" alt="">
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>
+                                    @f.Desc
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+         
+           
+        </div>
+    </div>
+</section>
+
+<section id="SpecialOffers">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="specialTitle col-lg-6 col-12">
+                <h1>Special offers</h1>
+            </div>
+            <div class="seeMore col-lg-6 col-12">
+                <p><a href="./shop.html">See more detail</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="image-info">
+                    <div class="image-icon">
+                        <div class="image">
+                            <img src="~/assets/images/morBanan.png" alt="Product">
+                        </div>
+                        <div class="heartIcon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="rating">
+                            <div class="star-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="point">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+
+                        <div class="name-comp">
+                            <h3><a href="./detail.html">Sunshine immunity</a></h3>
+                            <p>Acai, bluery, banana, almond milk</p>
+                        </div>
+                        <div class="dollar-price">
+                            $<span class="price">17.45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="image-info">
+                    <div class="image-icon">
+                        <div class="image">
+                            <img src="~/assets/images/kiviciyelek.png" alt="Product">
+                        </div>
+                        <div class="heartIcon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="rating">
+                            <div class="star-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="point">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+
+                        <div class="name-comp">
+                            <h3><a href="./detail.html">Sunshine immunity</a></h3>
+                            <p>Acai, bluery, banana, almond milk</p>
+                        </div>
+                        <div class="dollar-price">
+                            $<span class="price">17.45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="image-info">
+                    <div class="image-icon">
+                        <div class="image">
+                            <img src="~/assets/images/banansefteli.png" alt="Product">
+                        </div>
+                        <div class="heartIcon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="rating">
+                            <div class="star-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="point">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+
+                        <div class="name-comp">
+                            <h3><a href="./detail.html">Sunshine immunity</a></h3>
+                            <p>Acai, bluery, banana, almond milk</p>
+                        </div>
+                        <div class="dollar-price">
+                            $<span class="price">17.45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="image-info">
+                    <div class="image-icon">
+                        <div class="image">
+                            <img src="~/assets/images/uzumbanan.png" alt="Product">
+                        </div>
+                        <div class="heartIcon">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="rating">
+                            <div class="star-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <div class="point">
+                                <p>4.7</p>
+                            </div>
+                        </div>
+
+                        <div class="name-comp">
+                            <h3><a href="./detail.html">Sunshine immunity</a></h3>
+                            <p>Acai, bluery, banana, almond milk</p>
+                        </div>
+                        <div class="dollar-price">
+                            $<span class="price">17.45</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

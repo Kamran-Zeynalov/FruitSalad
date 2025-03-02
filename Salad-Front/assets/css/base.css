@@ -1,0 +1,2396 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+@import 'animate.css';
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+main .salad-background .passage span {
+  font-size: 15px;
+}
+main .salad-background .passage span a {
+  transition: 0.3s;
+  color: #A6ABC4;
+}
+main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+main .salad-background .passage span .detail {
+  color: #525666;
+}
+main #Basket h3 {
+  color: #525666;
+  font-family: AnekTamil-SemiBold;
+}
+main #Basket .img-title-price {
+  display: flex;
+  margin-bottom: 20px;
+}
+main #Basket .img-title-price .image {
+  margin-right: 36px;
+}
+main #Basket .img-title-price .image img {
+  width: 100px;
+  height: 100px;
+}
+main #Basket .img-title-price .title-comp {
+  width: 100%;
+}
+main #Basket .img-title-price .title-comp .title-xbtn {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+main #Basket .img-title-price .title-comp .title-xbtn .title h5 {
+  color: #525666;
+  font-family: AnekTamil-SemiBold;
+}
+main #Basket .img-title-price .title-comp .title-xbtn .xbtn {
+  margin-right: 10px;
+  color: #525666;
+  font-size: 18px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+main #Basket .img-title-price .title-comp .title-xbtn .xbtn:hover {
+  color: #23BE7B;
+}
+main #Basket .img-title-price .title-comp .composition {
+  border-bottom: 1px solid #cacbd1;
+  height: 30px;
+  margin-bottom: 14px;
+}
+main #Basket .img-title-price .title-comp .composition p {
+  color: #8A8FA5;
+  font-family: AnekTamil-Regular;
+}
+main #Basket .img-title-price .title-comp .quantity-price {
+  display: flex;
+  justify-content: space-between;
+}
+main #Basket .img-title-price .title-comp .quantity input {
+  color: #666972;
+  height: 30px;
+  text-align: center;
+  width: 50px;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  background-color: #EBFBF4;
+}
+main #Basket .img-title-price .title-comp .quantity input:focus {
+  outline: none;
+}
+main #Basket .img-title-price .title-comp .price {
+  margin-right: 10px;
+  color: #525666;
+  font-size: 16px;
+}
+main #Basket .all-total {
+  background-color: #FAFAFB;
+  padding: 20px 40px;
+  color: #363947;
+  font-family: AnekTamil-SemiBold;
+}
+main #Basket .all-total .balance-shipping-total .balance {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+main #Basket .all-total .balance-shipping-total .shipping {
+  margin-top: 12px;
+  color: #8A8FA5;
+  display: flex;
+  justify-content: space-between;
+}
+main #Basket .all-total .balance-shipping-total .shipping p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+main #Basket .all-total .balance-shipping-total .total {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+main #Basket .all-total .balance-shipping-total .checkout {
+  margin-top: 70px;
+}
+main #Basket .all-total .balance-shipping-total .checkout button {
+  width: 95%;
+  border-radius: 22px;
+  background-color: #23BE7B;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  transition: 0.3s;
+}
+main #Basket .all-total .balance-shipping-total .checkout button:hover {
+  background-color: #07a762;
+}
+
+main .salad-background {
+  font-family: AnekTamil-Medium;
+}
+main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+main .salad-background .passage span {
+  font-size: 15px;
+}
+main .salad-background .passage span a {
+  transition: 0.3s;
+  color: #A6ABC4;
+}
+main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+main .salad-background .passage span .detail {
+  color: #525666;
+}
+main #Create {
+  color: #525666;
+}
+main #Create .create-title {
+  margin-bottom: 15px;
+  display: flex;
+}
+main #Create .create-title p {
+  background-color: #2EDC87;
+  color: white;
+  margin: 8px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+main #Create .create-title h2 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos {
+  padding: 22px;
+  background-color: #FAFAFB;
+}
+main #Create .all-infos .bowl-size {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+main #Create .all-infos .bowl-size .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos .bowl-size .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .bowl-size .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .bowl-size .select label input {
+  margin: 0 18px;
+}
+main #Create .all-infos .spices ul {
+  list-style: none;
+}
+main #Create .all-infos .spices ul li {
+  border-bottom: 1px solid #e6e6e8;
+  margin: 27px 0;
+}
+main #Create .all-infos .spices ul li .name-icon {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+main #Create .all-infos .spices ul li .name-icon .icon i {
+  color: #CACDDC;
+}
+main #Create .all-infos .spices ul .name-and-fruits .name p {
+  color: #6E7286;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name {
+  margin-left: 7px;
+  padding: 0 1px;
+  cursor: pointer;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name:hover .name {
+  color: #23BE7B;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .image {
+  width: 96px;
+  height: 84px;
+  border-radius: 4px;
+  background-color: white;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .image img {
+  width: 77px;
+  height: 66px;
+  margin: 9px 10px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .name {
+  text-align: center;
+  transition: 0.3s;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select label input {
+  margin: 0 18px;
+}
+main #Create .all-infos .shape-fruit {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+main #Create .all-infos .shape-fruit .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos .shape-fruit .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .shape-fruit .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .shape-fruit .select label input {
+  margin: 0 18px;
+}
+main #Create .all-infos .comment {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #Create .all-infos .comment .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .fruit-infos {
+  padding: 22px;
+  background-color: #FAFAFB;
+}
+main #Create .fruit-infos .caption {
+  border-bottom: 1px solid #e6e6e8;
+}
+main #Create .fruit-infos .caption .fruit-salad {
+  margin-bottom: 15px;
+  display: flex;
+}
+main #Create .fruit-infos .caption .fruit-salad p {
+  background-color: #2EDC87;
+  color: white;
+  margin: 4px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+main #Create .fruit-infos .caption .fruit-salad h4 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .fruit-infos .selected-fruits {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #Create .fruit-infos .selected-fruits .fruit {
+  margin: 10px 12px;
+  border: 1px solid #89E9BC;
+  border-radius: 24px;
+  height: 40px;
+  padding: 15px 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 15px;
+}
+@media only screen and (max-width: 820px) {
+  main #Create .fruit-infos .selected-fruits .fruit {
+    margin: 0 3px;
+  }
+}
+main #Create .fruit-infos .selected-fruits .fruit:hover {
+  color: #2EDC87;
+  border-color: #525666;
+}
+main #Create .fruit-infos .selected-fruits .fruit .fruit-name p {
+  color: #A6ABC4;
+}
+main #Create .fruit-infos .selected-fruits .fruit .icon {
+  margin: 0 0 16px 6px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #525666;
+  cursor: pointer;
+}
+main #Create .fruit-infos .selected-fruits .fruit .icon i {
+  margin: 2px;
+}
+main #Create .fruit-infos .selected-fruits .not-changed {
+  background-color: #73E7AF;
+  color: white;
+  transition: 0.3s;
+}
+main #Create .fruit-infos .selected-fruits .not-changed:hover {
+  background-color: #5bc893;
+  color: white;
+  border-color: #89E9BC;
+}
+main #Create .fruit-infos .text-info {
+  margin-top: 20px;
+  width: 70%;
+}
+main #Create .fruit-infos .text-info p {
+  color: #525666;
+}
+main #Create .fruit-infos .total-add-basket {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+main #Create .fruit-infos .total-add-basket .total span {
+  color: #363947;
+  font-weight: bold;
+}
+main #Create .fruit-infos .total-add-basket .button {
+  width: 70%;
+  margin: 0 auto;
+}
+main #Create .fruit-infos .total-add-basket .button button {
+  width: 95%;
+  border: none;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+main #Create .fruit-infos .total-add-basket .button button:hover {
+  background-color: #1b9e65;
+}
+
+body main {
+  font-family: "AnekTamil-Medium";
+}
+body main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+body main .salad-background .passage span {
+  font-size: 15px;
+}
+body main .salad-background .passage span a {
+  transition: 0.3s;
+  color: #A6ABC4;
+}
+body main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+body main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+body main .salad-background .passage span .detail {
+  color: #525666;
+}
+body main #Detail {
+  color: #525666;
+}
+body main #Detail .image img {
+  width: 100%;
+}
+body main #Detail .name-price p {
+  font-size: 21px;
+}
+body main #Detail .rating {
+  display: flex;
+}
+body main #Detail .rating .star-icon i {
+  font-size: 14px;
+}
+body main #Detail .rating .point {
+  padding: 0 12px 0 6px;
+}
+body main #Detail .rating .review {
+  color: #2EDC87;
+}
+body main #Detail .rating .review p {
+  transition: 0.3s;
+  cursor: pointer;
+}
+body main #Detail .rating .review p i {
+  font-size: 14px;
+}
+body main #Detail .rating .review p:hover {
+  text-decoration: underline;
+}
+body main #Detail .composition {
+  display: flex;
+}
+body main #Detail .composition .fruit {
+  margin: 0 12px;
+  border: 1px solid #89E9BC;
+  border-radius: 24px;
+  height: 40px;
+  padding: 15px 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 15px;
+}
+body main #Detail .composition .fruit:hover {
+  color: #2EDC87;
+  border-color: #525666;
+}
+body main #Detail .composition .fruit .fruit-name p {
+  color: #A6ABC4;
+}
+body main #Detail .composition .fruit .icon {
+  margin: 0 0 16px 6px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #525666;
+  cursor: pointer;
+}
+body main #Detail .composition .fruit .icon i {
+  margin: 2px;
+}
+body main #Detail .case-size {
+  width: 100%;
+}
+body main #Detail .case-size .select-size {
+  margin-top: 30px;
+}
+body main #Detail .case-size .sizes {
+  width: 100%;
+}
+body main #Detail .case-size .sizes ul {
+  list-style: none;
+  width: 100%;
+}
+body main #Detail .case-size .sizes ul li {
+  margin-top: 15px;
+  color: #525666;
+  border-bottom: 1px solid #d7d7da;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+body main #Detail .case-size .sizes ul li p span {
+  color: #A6ABC4;
+}
+body main #Detail .toppings .add-toppings {
+  margin-top: 30px;
+}
+body main #Detail .toppings .topping-fruit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 82%;
+}
+body main #Detail .toppings .topping-fruit .image-name {
+  margin-left: 12px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+body main #Detail .toppings .topping-fruit .image-name:hover .name {
+  color: #23BE7B;
+}
+body main #Detail .toppings .topping-fruit .image-name .image {
+  width: 96px;
+  height: 84px;
+  border-radius: 4px;
+  background-color: #F6F7F9;
+}
+body main #Detail .toppings .topping-fruit .image-name .image img {
+  width: 77px;
+  height: 66px;
+  margin: 9px 10px;
+}
+body main #Detail .toppings .topping-fruit .image-name .name {
+  text-align: center;
+  transition: 0.3s;
+}
+body main #Detail .quantity-order .name {
+  margin-top: 22px;
+}
+body main #Detail .quantity-order .quantity {
+  margin-left: 10px;
+}
+body main #Detail .quantity-order .quantity input {
+  text-align: center;
+  width: 14%;
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  background-color: #EBFBF4;
+}
+body main #Detail .quantity-order .quantity input:focus {
+  outline: none;
+}
+body main #Detail .quantity-order .order {
+  display: flex;
+  margin-top: 20px;
+}
+body main #Detail .quantity-order .order .button {
+  width: 70%;
+}
+body main #Detail .quantity-order .order .button button {
+  width: 95%;
+  border: none;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+body main #Detail .quantity-order .order .button button:hover {
+  background-color: #1b9e65;
+}
+body main #Detail .quantity-order .order .save-icon {
+  background-color: #F6F7F9;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+body main #Detail .quantity-order .order .save-icon:hover {
+  background-color: #ededed;
+}
+body main #Detail .quantity-order .order .save-icon i {
+  font-size: 31px;
+  color: #8A8FA5;
+}
+body main #Vitamins {
+  margin-top: 80px;
+}
+body main #Vitamins .vita {
+  background-color: #F6F7F9;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+body main #Vitamins .vita .title {
+  margin-top: 14px;
+}
+body main #Vitamins .vita .fruit-info {
+  display: flex;
+}
+body main #Vitamins .vita .fruit-info .fruit-name-image .name h6 {
+  color: #FB4C4C;
+}
+body main #Vitamins .vita .fruit-info .fruit-name-image .image {
+  width: 96px;
+  height: 84px;
+}
+body main #Vitamins .vita .fruit-info .fruit-name-image .image img {
+  width: 77px;
+  height: 66px;
+}
+body main #Vitamins .vita .fruit-info .info {
+  margin: 0 0 0 20px;
+}
+body main #SpecialOffers {
+  padding: 20px 0 70px 0;
+  margin-top: 70px;
+}
+body main #SpecialOffers .specialTitle h1 {
+  font-family: AnekTamil-SemiBold;
+  color: #23BE7B;
+}
+@media only screen and (max-width: 820px) {
+  body main #SpecialOffers .specialTitle h1 {
+    text-align: center;
+  }
+}
+body main #SpecialOffers .seeMore {
+  text-align: end;
+}
+@media only screen and (max-width: 820px) {
+  body main #SpecialOffers .seeMore {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+body main #SpecialOffers .seeMore p a {
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info {
+  margin-top: 25px;
+}
+body main #SpecialOffers .image-info .image-icon {
+  position: relative;
+  width: 288px;
+}
+body main #SpecialOffers .image-info .image-icon .image img {
+  width: 288;
+  height: 268px;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon {
+  padding: 10px;
+  background-color: #F6F7F9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 12px;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon i {
+  font-size: 20px;
+  color: #8A8FA5;
+  transition: 0.3s;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon i:hover {
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info .info {
+  width: 288px;
+  background-color: #F9F9F9;
+  padding: 6px;
+}
+body main #SpecialOffers .image-info .info .rating {
+  display: flex;
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info .info .rating .star-icon {
+  padding: 0 7px;
+}
+body main #SpecialOffers .image-info .info .name-comp h3 {
+  font-family: AnekTamil-SemiBold;
+}
+body main #SpecialOffers .image-info .info .name-comp h3 a {
+  color: #525666;
+  text-decoration: none;
+}
+body main #SpecialOffers .image-info .info .name-comp p {
+  color: #8A8FA5;
+  font-family: AnekTamil-Regular;
+}
+body main #SpecialOffers .image-info .info .dollar-price {
+  color: #6E7286;
+  font-family: AnekTamil-SemiBold;
+}
+
+@font-face {
+  font-family: "AnekTamil-Medium";
+  src: url("../fonts/AnekTamil-Medium.ttf");
+}
+@font-face {
+  font-family: "AnekTamil-Regular";
+  src: url("../fonts/AnekTamil-Regular.ttf");
+}
+@font-face {
+  font-family: "AnekTamil-SemiBold";
+  src: url("../fonts/AnekTamil-SemiBold.ttf");
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2EDC87;
+  border-radius: 10px;
+}
+
+body input[type=radio] {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #A6ABC4;
+  cursor: pointer;
+  display: inline-block;
+  height: 15px;
+  margin-right: 15px;
+  position: relative;
+  width: 15px;
+  -webkit-appearance: none;
+}
+body input[type=radio]:checked:after {
+  background-color: #89E9BC;
+  border-radius: 25px;
+  content: "";
+  display: block;
+  height: 10.5px;
+  left: 1.7px;
+  position: relative;
+  top: 1.4px;
+  width: 10.5px;
+  border: 1px solid #89E9BC;
+}
+body header {
+  position: relative;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 1px 1px 30px 1px lightgray;
+  border-bottom: 2px solid #2EDC87;
+}
+body header .headerUp {
+  height: 60px;
+  align-items: center;
+}
+@media only screen and (max-width: 820px) {
+  body header .headerUp .logo img {
+    margin-bottom: 10px;
+  }
+}
+body header .headerUp .menu .ulMenu {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+body header .headerUp .menu .ulMenu li {
+  color: #6E7286;
+  transition: 0.3s;
+}
+body header .headerUp .menu .ulMenu li a {
+  text-decoration: none;
+  color: #6E7286;
+  transition: 0.3s;
+}
+body header .headerUp .menu .ulMenu li a:hover {
+  text-decoration: none;
+  color: #2EDC87;
+}
+body header .headerUp .menu .ulMenu li i {
+  font-size: 13px;
+}
+body header .headerUp .menu .ulMenu li:hover {
+  text-decoration: none;
+  color: #2EDC87;
+}
+body header .headerUp .menu .ulMenu .acordion {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  top: 40px;
+  font-size: 32px;
+  left: 560px;
+  background-color: white;
+  list-style: none;
+}
+body header .headerUp .menu .ulMenu .acordion li {
+  font-size: 15px;
+}
+body header .headerUp .menu .ulMenuIcons {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+@media only screen and (max-width: 820px) {
+  body header .headerUp .menu .ulMenuIcons {
+    display: none;
+    justify-content: end;
+    margin-top: 5px;
+  }
+}
+body header .headerUp .menu .ulMenuIcons .search-input {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  padding: 3px;
+  top: 62px;
+  font-size: 32px;
+  right: 150px;
+  background-color: white;
+  list-style: none;
+}
+body header .headerUp .menu .ulMenuIcons .search-input li {
+  font-size: 15px;
+}
+body header .headerUp .menu .ulMenuIcons .search-input li input {
+  border: none;
+  color: #126940;
+}
+body header .headerUp .menu .ulMenuIcons .search-input li input:focus {
+  outline: none;
+}
+body header .headerUp .menu .ulMenuIcons .search-input li input::placeholder {
+  color: #126940;
+}
+body header .headerUp .menu .ulMenuIcons .person-info {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  padding: 3px;
+  top: 62px;
+  font-size: 32px;
+  right: 130px;
+  background-color: white;
+  list-style: none;
+  padding: 10px 15px 0;
+}
+body header .headerUp .menu .ulMenuIcons .person-info li {
+  margin: 0;
+  padding: 0;
+}
+body header .headerUp .menu .ulMenuIcons .person-info li p {
+  font-size: 16px;
+  line-height: 13px;
+}
+body header .headerUp .menu .ulMenuIcons .person-info li p a {
+  color: #525666;
+  transition: 0.3s;
+}
+body header .headerUp .menu .ulMenuIcons .person-info li p a:hover {
+  color: #23BE7B;
+}
+body header .headerUp .menu .ulMenuIcons li {
+  color: #2EDC87;
+  margin: 0 10px;
+}
+@media only screen and (max-width: 820px) {
+  body header .headerUp .menu .ulMenuIcons li {
+    margin: 0 5px;
+  }
+}
+body header .headerUp .menu .ulMenuIcons li a {
+  text-decoration: none;
+}
+body header .headerUp .menu .ulMenuIcons li i {
+  font-size: 20px;
+  color: #2EDC87;
+  margin-top: 4px;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 820px) {
+  body header .headerUp .menu .ulMenuIcons li i {
+    font-size: 15px;
+  }
+}
+body header .headerUp .menu .ulMenuIcons li i:hover {
+  color: #6E7286;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons {
+  display: none;
+  list-style: none;
+  justify-content: end;
+}
+@media only screen and (max-width: 820px) {
+  body header .headerUp .hamburgerIcon .ulMenuIcons {
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+  }
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons .search-input {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  padding: 3px;
+  top: 62px;
+  font-size: 32px;
+  right: 150px;
+  background-color: white;
+  list-style: none;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons .search-input li {
+  font-size: 15px;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons .search-input li input {
+  border: none;
+  color: #126940;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons .search-input li input:focus {
+  outline: none;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons .search-input li input::placeholder {
+  color: #126940;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons li {
+  color: #2EDC87;
+  margin: 5px 10px;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons li a {
+  text-decoration: none;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons li i {
+  color: #6E7286;
+  margin-top: 4px;
+  transition: 0.3s;
+  font-size: 25px;
+}
+body header .headerUp .hamburgerIcon .ulMenuIcons li:hover i {
+  color: #2EDC87;
+}
+body header .headerUp .side-menu {
+  visibility: hidden;
+  box-shadow: 2px 2px 20px 2px black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+}
+@media only screen and (min-width: 825px) {
+  body header .headerUp .side-menu {
+    visibility: hidden;
+  }
+}
+body header .headerUp .side-menu .menu-title {
+  margin: 10px 0;
+  border-bottom: 2px solid lightgray;
+}
+body header .headerUp .side-menu .menu-title .X-btn {
+  display: inline-block;
+  font-size: 23px;
+}
+body header .headerUp .side-menu .menu-title .X-btn i {
+  transform: rotateZ(0deg);
+  transition: 0.5s;
+  display: inline-block;
+}
+body header .headerUp .side-menu .menu-title .X-btn:hover i {
+  transform: rotateZ(180deg);
+  transition: 0.5s;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  list-style-type: none;
+  width: 100%;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover li {
+  margin: 20px 0;
+  border-bottom: 1px solid #23BE7B;
+  text-align: center;
+  font-size: 16px;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover .acordion {
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover .acordion li {
+  font-size: 13px;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover .account-acordion {
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 80%;
+  margin: 0 auto;
+}
+body header .headerUp .side-menu .menu-infos .menu-hover .account-acordion li {
+  font-size: 13px;
+}
+body header .headerUp .side-menu .menu-infos a {
+  color: #363947;
+  text-decoration: none;
+}
+body header .headerUp .side-basket {
+  visibility: hidden;
+  box-shadow: 2px 2px 20px 2px black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100vh;
+}
+@media only screen and (min-width: 825px) {
+  body header .headerUp .side-basket {
+    width: 350px;
+  }
+}
+body header .headerUp .side-basket .menu-title {
+  margin: 10px 0;
+  border-bottom: 2px solid lightgray;
+}
+body header .headerUp .side-basket .menu-title .X-btn {
+  display: inline-block;
+  font-size: 23px;
+}
+body header .headerUp .side-basket .menu-title .X-btn i {
+  transform: rotateZ(0deg);
+  transition: 0.5s;
+  display: inline-block;
+}
+body header .headerUp .side-basket .menu-title .X-btn:hover i {
+  transform: rotateZ(180deg);
+  transition: 0.5s;
+}
+body header .headerUp .side-basket .products-image-infos {
+  padding: 10px 0;
+  border-bottom: 1px solid #126940;
+}
+body header .headerUp .side-basket .products-image-infos .image img {
+  width: 100%;
+}
+body header .headerUp .side-basket .products-image-infos .infos p {
+  line-height: 8px;
+}
+body footer .all-footer-info {
+  margin: 80px 0;
+}
+body footer .all-footer-info .applications {
+  display: flex;
+}
+body footer .all-footer-info .applications .app {
+  padding: 0 10px;
+}
+body footer .all-footer-info .free-line {
+  width: 98%;
+  height: 1px;
+  background-color: lightgray;
+  margin: 30px auto;
+}
+body footer .all-footer-info .reserved {
+  padding: 10px 0 0 17px;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .reserved {
+    padding: 10px 0 18px 30px;
+  }
+}
+body footer .all-footer-info .reserved p {
+  font-family: AnekTamil-Medium;
+  line-height: 5px;
+  color: #6E7286;
+}
+body footer .all-footer-info .footerInfos h4 {
+  margin-left: 30px;
+  font-size: 23px;
+  font-family: AnekTamil-Regular;
+  color: #363947;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .footerInfos h4 {
+    font-size: 18px;
+  }
+}
+body footer .all-footer-info .footerInfos ul li {
+  list-style: none;
+  color: #6E7286;
+  line-height: 35px;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .footerInfos ul li {
+    font-size: 13px;
+    line-height: 28px;
+  }
+}
+body footer .all-footer-info .footerInfos ul li a {
+  text-decoration: none;
+  color: #6E7286;
+}
+body footer .all-footer-info .contact h4 {
+  margin-left: 30px;
+  font-size: 23px;
+  font-family: AnekTamil-Regular;
+  color: #363947;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .contact h4 {
+    font-size: 18px;
+  }
+}
+body footer .all-footer-info .contact ul {
+  list-style: none;
+  display: flex;
+}
+body footer .all-footer-info .contact ul li {
+  color: #2EDC87;
+  font-size: 17px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 3px 9px;
+  margin: 10px 23px 0 0;
+  background-color: #EEFCF5;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .contact ul li {
+    margin: 10px 15px 0 0;
+  }
+}
+
+main {
+  font-family: "AnekTamil-Medium";
+}
+main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+main .salad-background .passage span {
+  font-size: 15px;
+}
+main .salad-background .passage span a {
+  transition: 0.3s;
+}
+main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+main .salad-background .passage span .shop {
+  color: #525666;
+}
+main .salad-background .page-name {
+  margin: 0 0 7px 0;
+}
+main .salad-background .page-name h1 {
+  color: #23BE7B;
+}
+main #Imformation {
+  color: lightgrey;
+}
+main #Imformation .leftDiv {
+  border-right: 1px solid gray;
+}
+main #Imformation .leftDiv .title .titleList {
+  width: 99%;
+  display: flex;
+  list-style: none;
+}
+main #Imformation .leftDiv .title .titleList a {
+  color: lightgrey;
+  text-decoration: none;
+}
+main #Imformation .leftDiv .title .titleList :nth-child(1) a {
+  color: #2EDC87;
+}
+main #Imformation .leftDiv .title .titleList li {
+  padding: 10px 40px;
+  border-bottom: 1px solid lightgray;
+}
+main #Imformation .leftDiv .title .titleList li:nth-child(1) {
+  border-bottom: 2px solid #2EDC87;
+}
+main #Imformation .leftDiv .title .titleList li:hover {
+  color: #2EDC87;
+  border-bottom: 1px solid #2EDC87;
+}
+main #Imformation .leftDiv .contactInfo {
+  margin-top: 30px;
+}
+main #Imformation .leftDiv .contactInfo h5 {
+  color: #525666;
+}
+main #Imformation .leftDiv .contactInfo .input {
+  margin-top: 20px;
+}
+main #Imformation .leftDiv .contactInfo .input label {
+  color: #525666;
+}
+main #Imformation .leftDiv .contactInfo .input input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .contactInfo .input ::placeholder {
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .delivery {
+  margin-top: 60px;
+}
+main #Imformation .leftDiv .delivery h5 {
+  color: #525666;
+}
+main #Imformation .leftDiv .delivery .allInputs label {
+  color: #525666;
+  display: inline;
+  margin-left: 30px;
+  padding: 10px 0;
+  height: 20px;
+}
+main #Imformation .leftDiv .delivery .allInputs .input {
+  margin-left: 5px;
+  display: inline;
+  width: 30%;
+  padding: 4px 10px;
+  margin: 20px -2px;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .delivery .allInputs ::placeholder {
+  color: lightgrey;
+  opacity: 1;
+}
+main #Imformation .leftDiv .delivery .allInputs #country {
+  margin-left: 30px;
+  width: 85%;
+}
+main #Imformation .leftDiv .delivery .allInputs #address {
+  margin-left: 40px;
+}
+main #Imformation .leftDiv .delivery .allInputs #Apart {
+  margin: 0;
+}
+main #Imformation .leftDiv .delivery .allInputs textarea {
+  margin-left: 30px;
+  width: 85%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .delivery .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+main #Imformation .leftDiv .delivery .buttons button {
+  margin: 0 30px;
+  width: 70%;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #525666;
+}
+main #Imformation .leftDiv .delivery .buttons .submit {
+  margin-right: 80px;
+  width: 70%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+main #Imformation .leftDiv .delivery .buttons .submit:hover {
+  background-color: #1b9e65;
+}
+main #Imformation .rightDiv {
+  color: #525666;
+  background-color: #FAFAFB;
+}
+main #Imformation .rightDiv .products {
+  display: flex;
+  margin: 30px 10px;
+}
+main #Imformation .rightDiv .products .image img {
+  width: 70px;
+}
+main #Imformation .rightDiv .products .name-price {
+  width: 100%;
+  margin: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .promoCode .inp-button {
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .promoCode .inp-button input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .rightDiv .promoCode .inp-button ::placeholder {
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .rightDiv .promoCode .inp-button button {
+  border: 1px solid #2EDC87;
+  color: #2EDC87;
+  border-radius: 40px;
+  margin-right: 10px;
+  width: 24%;
+  background-color: white;
+}
+main #Imformation .rightDiv .promoCode .inp-button button:hover {
+  color: white;
+  background-color: #2EDC87;
+}
+main #Imformation .rightDiv .result .ress {
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .result .ress:nth-child(2) p:nth-child(2) {
+  color: #c9c9ce;
+}
+main #Imformation .rightDiv .result .ress:nth-child(3) p:nth-child(1) {
+  color: #c9c9ce;
+}
+main #Imformation .rightDiv .result .ress:nth-child(3) p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+html, body {
+  font-family: "Ubuntu";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 50%;
+  height: 100%;
+  max-height: 600px;
+  min-height: 450px;
+  background: #332F63;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 50px;
+}
+.box .box__ghost {
+  padding: 15px 25px 25px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+.box .box__ghost .symbol:nth-child(1) {
+  opacity: 0.2;
+  animation: shine 4s ease-in-out 3s infinite;
+}
+.box .box__ghost .symbol:nth-child(1):before, .box .box__ghost .symbol:nth-child(1):after {
+  content: "";
+  width: 12px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  left: 0;
+}
+.box .box__ghost .symbol:nth-child(1):before {
+  transform: rotate(45deg);
+}
+.box .box__ghost .symbol:nth-child(1):after {
+  transform: rotate(-45deg);
+}
+.box .box__ghost .symbol:nth-child(2) {
+  position: absolute;
+  left: -5px;
+  top: 30px;
+  height: 18px;
+  width: 18px;
+  border: 4px solid;
+  border-radius: 50%;
+  border-color: #fff;
+  opacity: 0.2;
+  animation: shine 4s ease-in-out 1.3s infinite;
+}
+.box .box__ghost .symbol:nth-child(3) {
+  opacity: 0.2;
+  animation: shine 3s ease-in-out 0.5s infinite;
+}
+.box .box__ghost .symbol:nth-child(3):before, .box .box__ghost .symbol:nth-child(3):after {
+  content: "";
+  width: 12px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+.box .box__ghost .symbol:nth-child(3):before {
+  transform: rotate(90deg);
+}
+.box .box__ghost .symbol:nth-child(3):after {
+  transform: rotate(180deg);
+}
+.box .box__ghost .symbol:nth-child(4) {
+  opacity: 0.2;
+  animation: shine 6s ease-in-out 1.6s infinite;
+}
+.box .box__ghost .symbol:nth-child(4):before, .box .box__ghost .symbol:nth-child(4):after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  top: 10px;
+  right: 30px;
+}
+.box .box__ghost .symbol:nth-child(4):before {
+  transform: rotate(45deg);
+}
+.box .box__ghost .symbol:nth-child(4):after {
+  transform: rotate(-45deg);
+}
+.box .box__ghost .symbol:nth-child(5) {
+  position: absolute;
+  right: 5px;
+  top: 40px;
+  height: 12px;
+  width: 12px;
+  border: 3px solid;
+  border-radius: 50%;
+  border-color: #fff;
+  opacity: 0.2;
+  animation: shine 1.7s ease-in-out 7s infinite;
+}
+.box .box__ghost .symbol:nth-child(6) {
+  opacity: 0.2;
+  animation: shine 2s ease-in-out 6s infinite;
+}
+.box .box__ghost .symbol:nth-child(6):before, .box .box__ghost .symbol:nth-child(6):after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  right: -5px;
+}
+.box .box__ghost .symbol:nth-child(6):before {
+  transform: rotate(90deg);
+}
+.box .box__ghost .symbol:nth-child(6):after {
+  transform: rotate(180deg);
+}
+.box .box__ghost .box__ghost-container {
+  width: 300px;
+  height: 260px;
+  text-align: center;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  margin: 0 auto;
+  animation: upndown 3s ease-in-out infinite;
+}
+.box .box__ghost .box__ghost-container .salad {
+  border-radius: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+.box .box__ghost .box__ghost-shadow {
+  height: 20px;
+  box-shadow: 0 50px 15px 5px #3B3769;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: smallnbig 3s ease-in-out infinite;
+}
+.box .box__description {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box .box__description .box__description-container {
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.box .box__description .box__description-container .box__description-title {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+.box .box__description .box__description-container .box__description-text {
+  color: #8C8AA7;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.box .box__description .box__button {
+  display: block;
+  position: relative;
+  background: #FF5E65;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  padding: 0 70px;
+  white-space: nowrap;
+  margin-top: 25px;
+  transition: background 0.5s ease;
+  overflow: hidden;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+.box .box__description .box__button:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100px;
+  background: #fff;
+  bottom: -25px;
+  left: 0;
+  border: 2px solid #fff;
+  transform: translateX(-50px) rotate(45deg);
+  transition: transform 0.5s ease;
+}
+.box .box__description .box__button:hover {
+  background: transparent;
+  border-color: #fff;
+}
+.box .box__description .box__button:hover:before {
+  transform: translateX(250px) rotate(45deg);
+}
+
+@keyframes upndown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes smallnbig {
+  0% {
+    width: 90px;
+  }
+  50% {
+    width: 100px;
+  }
+  100% {
+    width: 90px;
+  }
+}
+@keyframes shine {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+main {
+  font-family: "AnekTamil-Medium";
+}
+main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+main .salad-background .passage span {
+  font-size: 15px;
+}
+main .salad-background .passage span a {
+  transition: 0.3s;
+}
+main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+main .salad-background .passage span .shop {
+  color: #525666;
+}
+main .salad-background .page-name {
+  margin: 0 0 7px 0;
+}
+main .salad-background .page-name h1 {
+  color: #23BE7B;
+}
+main #Imformation {
+  color: lightgrey;
+}
+main #Imformation .leftDiv {
+  border-right: 1px solid gray;
+}
+main #Imformation .leftDiv .title .titleList {
+  width: 99%;
+  display: flex;
+  list-style: none;
+}
+main #Imformation .leftDiv .title .titleList a {
+  color: lightgrey;
+  text-decoration: none;
+}
+main #Imformation .leftDiv .title .titleList :nth-child(2) a {
+  color: #2EDC87;
+}
+main #Imformation .leftDiv .title .titleList :nth-child(2) {
+  border-bottom: 2px solid #2EDC87;
+}
+main #Imformation .leftDiv .title .titleList li {
+  padding: 10px 40px;
+  border-bottom: 1px solid lightgray;
+}
+main #Imformation .leftDiv .title .titleList li:hover {
+  color: #2EDC87;
+  border-bottom: 1px solid #2EDC87;
+}
+main #Imformation .leftDiv .creditCard {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 26px;
+}
+main #Imformation .leftDiv .creditCard .input {
+  margin-top: 10px;
+}
+main #Imformation .leftDiv .creditCard .inp-text {
+  width: 60%;
+}
+main #Imformation .leftDiv .creditCard .inp-text h4 {
+  color: #686d84;
+}
+main #Imformation .leftDiv .creditCard .inp-text p {
+  font-size: 15px;
+  width: 90%;
+  color: #c5cae4;
+  font-weight: 100;
+}
+main #Imformation .leftDiv .creditCard .cardImage img {
+  margin: 0 10px;
+  width: 40px;
+}
+main #Imformation .leftDiv .card-info {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+main #Imformation .leftDiv .card-info .cardHolder label {
+  display: block;
+  color: #686d84;
+}
+main #Imformation .leftDiv .card-info .cardHolder input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .card-info .cardHolder ::placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .aboutCard {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .leftDiv .card-info .aboutCard input {
+  width: 150%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .card-info .aboutCard ::placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .aboutCard label {
+  color: #686d84;
+  display: block;
+}
+main #Imformation .leftDiv .card-info .aboutCard .date {
+  margin-left: 100px;
+}
+main #Imformation .leftDiv .card-info .aboutCard .date input {
+  width: 70%;
+}
+main #Imformation .leftDiv .card-info .aboutCard .cvv {
+  margin-right: 10px;
+}
+main #Imformation .leftDiv .card-info .aboutCard .cvv input {
+  width: 65%;
+}
+main #Imformation .leftDiv .card-info .cash {
+  display: flex;
+  margin-top: 20px;
+}
+main #Imformation .leftDiv .card-info .cash .input {
+  margin-top: 10px;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text {
+  width: 60%;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text h4 {
+  color: #686d84;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text p {
+  font-size: 15px;
+  width: 90%;
+  color: #c5cae4;
+  font-weight: 100;
+}
+main #Imformation .leftDiv .card-info .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main #Imformation .leftDiv .card-info .buttons button {
+  margin: 0 5px;
+  width: 30%;
+  height: 50px;
+  border-radius: 30px;
+  color: #686d84;
+  border: 1px solid #525666;
+}
+main #Imformation .leftDiv .card-info .buttons .submit {
+  margin-right: 80px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+main #Imformation .leftDiv .card-info .buttons .submit:hover {
+  background-color: #1b9e65;
+}
+main #Imformation .rightDiv {
+  color: #525666;
+  background-color: #FAFAFB;
+}
+main #Imformation .rightDiv .products {
+  display: flex;
+  margin: 30px 10px;
+}
+main #Imformation .rightDiv .products .image img {
+  width: 70px;
+}
+main #Imformation .rightDiv .products .name-price {
+  width: 100%;
+  margin: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .promoCode .inp-button {
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .promoCode .inp-button input {
+  width: 60%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .rightDiv .promoCode .inp-button ::placeholder {
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .rightDiv .promoCode .inp-button button {
+  border: 1px solid #2EDC87;
+  color: #2EDC87;
+  border-radius: 40px;
+  margin-right: 10px;
+  width: 24%;
+  background-color: white;
+}
+main #Imformation .rightDiv .promoCode .inp-button button:hover {
+  color: white;
+  background-color: #2EDC87;
+}
+main #Imformation .rightDiv .result .ress {
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .rightDiv .result .ress:nth-child(2) p:nth-child(2) {
+  color: #c9c9ce;
+}
+main #Imformation .rightDiv .result .ress:nth-child(3) p:nth-child(1) {
+  color: #c9c9ce;
+}
+main #Imformation .rightDiv .result .ress:nth-child(3) p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body main {
+  font-family: "AnekTamil-Medium";
+}
+body main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+body main .salad-background .passage span {
+  font-size: 15px;
+}
+body main .salad-background .passage span a {
+  transition: 0.3s;
+}
+body main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+body main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+body main .salad-background .passage span .shop {
+  color: #525666;
+}
+body main .salad-background .page-name {
+  margin: 0 0 7px 0;
+}
+body main .salad-background .page-name h1 {
+  color: #23BE7B;
+}
+body main #Filter .filters {
+  color: #6E7286;
+  background-color: #F6F7F9;
+  padding: 20px;
+  border-radius: 10px;
+}
+body main #Filter .filters .title {
+  display: flex;
+  justify-content: space-between;
+}
+body main #Filter .filters .title h5 i {
+  display: inline-block;
+  font-size: 15px;
+}
+body main #Filter .filters .title-categories {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+body main #Filter .filters .title-categories .title {
+  transition: 0.3s;
+}
+body main #Filter .filters .title-categories .title:hover i {
+  color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories div.title2 {
+  padding: 3px 0;
+}
+body main #Filter .filters .title-categories .categories div.title2 li {
+  margin: 5px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+body main #Filter .filters .title-categories .categories div.title2 li:hover i {
+  color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories .fruitButton button {
+  font-size: 13px;
+  border: 1px solid #c5c7d0;
+  transition: 0.3s;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .baseButton {
+  color: #6E7286;
+  background-color: #F6F7F9;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .baseButton:hover {
+  color: #2EDC87;
+  border-color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .secondButton {
+  background-color: #2EDC87;
+  color: white;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .secondButton:hover {
+  color: white;
+  border-color: #2EDC87;
+}
+body main #Filter .filters .title-categories .calories {
+  display: none;
+}
+body main #Filter .filters .title-categories .calories form ul {
+  list-style: none;
+}
+body main #Filter .filters .title-categories .taste {
+  display: none;
+}
+body main #Filter .filters .title-categories .taste form ul {
+  list-style: none;
+}
+body main #Filter .filters .title-categories .taste .season {
+  display: none;
+}
+body main #Filter .filters .title-categories .taste .season ul li {
+  margin: 5px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+body main #Filter .filters .title-categories .taste .season ul ul {
+  display: none;
+}
+body main #Filter .filters .title-categories .taste .season ul ul:nth-child(2) {
+  display: block;
+}
+body main #Filter .filters .title-categories .taste .season ul ul li {
+  display: block;
+  margin: 0;
+}
+body main #Filter .filters .title-categories .taste .season ul ul li input {
+  margin-right: 10px;
+}
+body main #Filter .filters .title-categories .season ul li {
+  margin: 5px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+body main #Filter .filters .title-categories .season ul ul {
+  display: none;
+}
+body main #Filter .filters .title-categories .season ul ul:nth-child(2) {
+  display: block;
+}
+body main #Filter .filters .title-categories .season ul ul li {
+  display: block;
+  margin: 0;
+}
+body main #Filter .filters .title-categories .season ul ul li input {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 820px) {
+  body main #Filter .image-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+body main #Filter .image-info .image-icon {
+  position: relative;
+}
+body main #Filter .image-info .image-icon .image img {
+  width: 100%;
+}
+body main #Filter .image-info .image-icon .heartIcon {
+  padding: 10px;
+  background-color: #F6F7F9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 12px;
+}
+body main #Filter .image-info .image-icon .heartIcon i {
+  font-size: 20px;
+  color: #8A8FA5;
+  transition: 0.3s;
+}
+body main #Filter .image-info .image-icon .heartIcon i:hover {
+  color: #2EDC87;
+}
+body main #Filter .image-info .info {
+  width: 100%;
+  background-color: #F9F9F9;
+  padding: 6px;
+}
+body main #Filter .image-info .info .rating {
+  display: flex;
+  color: #2EDC87;
+}
+body main #Filter .image-info .info .rating .star-icon {
+  padding: 0 7px;
+}
+body main #Filter .image-info .info .name-comp h3 {
+  color: #525666;
+  font-family: AnekTamil-SemiBold;
+}
+body main #Filter .image-info .info .name-comp h3 a {
+  color: #525666;
+  text-decoration: none;
+}
+body main #Filter .image-info .info .name-comp p {
+  color: #8A8FA5;
+  font-family: AnekTamil-Regular;
+}
+body main #Filter .image-info .info .dollar-price {
+  color: #6E7286;
+  font-family: AnekTamil-SemiBold;
+}
+
+body main #FruitCustomize .customizeAndImage {
+  display: flex;
+  justify-content: space-between;
+}
+body main #FruitCustomize .customizeAndImage .customizeImage {
+  background-image: url("../images/basephoto.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+@media only screen and (max-width: 820px) {
+  body main #FruitCustomize .customizeAndImage .customizeImage {
+    height: 600px;
+    background-size: 100%;
+  }
+}
+@media only screen and (max-width: 391px) {
+  body main #FruitCustomize .customizeAndImage .customizeImage {
+    height: 330px;
+    background-size: 100%;
+  }
+}
+body main #FruitCustomize .customizeAndImage .customizeImage .button {
+  margin-top: 25px;
+  display: none;
+  text-align: end;
+  position: relative;
+  top: 500px;
+}
+@media only screen and (max-width: 820px) {
+  body main #FruitCustomize .customizeAndImage .customizeImage .button {
+    background-size: 100%;
+    display: block;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button {
+    color: #6E7286;
+    border-radius: 30px 0 0 30px;
+    padding: 10px 12px;
+    font-size: 17px;
+    border: none;
+    transition: 0.3s;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button:hover {
+    background-color: white;
+    color: #2EDC87;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button i {
+    font-size: 15px;
+    margin: 7px 0 7px 10px;
+  }
+}
+@media only screen and (max-width: 391px) {
+  body main #FruitCustomize .customizeAndImage .customizeImage .button {
+    top: 230px;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button {
+    color: #6E7286;
+    border-radius: 30px 0 0 30px;
+    padding: 5px 12px;
+    font-size: 13px;
+    border: none;
+    transition: 0.3s;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button:hover {
+    background-color: white;
+    color: #2EDC87;
+  }
+  body main #FruitCustomize .customizeAndImage .customizeImage .button button i {
+    font-size: 12px;
+    margin: 7px 0 7px 10px;
+  }
+}
+body main #FruitCustomize .customizeAndImage .customizeText {
+  background-color: #23BE7B;
+  width: 778px;
+  height: 618px;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button {
+  position: relative;
+  top: 100px;
+  left: 20px;
+  color: #126940;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .text p {
+  font-family: AnekTamil-Regular;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .text h1 {
+  font-size: 60px;
+  font-family: AnekTamil-SemiBold;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .button {
+  margin-top: 25px;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .button button {
+  color: #6E7286;
+  border-radius: 30px;
+  padding: 13px 20px;
+  border: none;
+  transition: 0.3s;
+  font-family: AnekTamil-Medium;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .button button:hover {
+  background-color: white;
+  color: #2EDC87;
+}
+body main #FruitCustomize .customizeAndImage .customizeText .text-button .button button i {
+  margin: 7px 10px;
+}
+body main #SpecialOffers {
+  margin-top: 70px;
+}
+body main #SpecialOffers .specialTitle h1 {
+  font-family: AnekTamil-SemiBold;
+  color: #23BE7B;
+}
+@media only screen and (max-width: 820px) {
+  body main #SpecialOffers .specialTitle h1 {
+    text-align: center;
+  }
+}
+body main #SpecialOffers .seeMore {
+  text-align: end;
+}
+@media only screen and (max-width: 820px) {
+  body main #SpecialOffers .seeMore {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+body main #SpecialOffers .seeMore p a {
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info {
+  margin-top: 25px;
+}
+body main #SpecialOffers .image-info .image-icon {
+  position: relative;
+  width: 288px;
+}
+body main #SpecialOffers .image-info .image-icon .image img {
+  width: 288;
+  height: 268px;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon {
+  padding: 10px;
+  background-color: #F6F7F9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 12px;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon i {
+  font-size: 20px;
+  color: #8A8FA5;
+  transition: 0.3s;
+}
+body main #SpecialOffers .image-info .image-icon .heartIcon i:hover {
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info .info {
+  width: 288px;
+  background-color: #F9F9F9;
+  padding: 6px;
+}
+body main #SpecialOffers .image-info .info .rating {
+  display: flex;
+  color: #2EDC87;
+}
+body main #SpecialOffers .image-info .info .rating .star-icon {
+  padding: 0 7px;
+}
+body main #SpecialOffers .image-info .info .name-comp h3 {
+  font-family: AnekTamil-SemiBold;
+}
+body main #SpecialOffers .image-info .info .name-comp h3 a {
+  color: #525666;
+  text-decoration: none;
+}
+body main #SpecialOffers .image-info .info .name-comp p {
+  color: #8A8FA5;
+  font-family: AnekTamil-Regular;
+}
+body main #SpecialOffers .image-info .info .dollar-price {
+  color: #6E7286;
+  font-family: AnekTamil-SemiBold;
+}
+body main #Process {
+  margin-top: 100px;
+}
+body main #Process .allInfo {
+  background-color: #126940;
+  padding-bottom: 60px;
+}
+body main #Process .allInfo .process-title-desc {
+  padding: 30px 0;
+  color: #23BE7B;
+}
+body main #Process .allInfo .process-title-desc h2 {
+  width: 40%;
+  font-family: AnekTamil-SemiBold;
+}
+@media only screen and (max-width: 820px) {
+  body main #Process .allInfo .process-title-desc h2 {
+    width: 100%;
+  }
+}
+body main #Process .allInfo .process-title-desc p {
+  font-family: AnekTamil-Regular;
+  width: 67%;
+}
+@media only screen and (max-width: 820px) {
+  body main #Process .allInfo .process-title-desc p {
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+body main #Process .allInfo .processFruits1 {
+  background-color: #EDC641;
+}
+body main #Process .allInfo .processFruits2 {
+  background-color: #F68048;
+}
+body main #Process .allInfo .processFruits3 {
+  background-color: #F2E0B1;
+}
+body main #Process .allInfo .processFruits4 {
+  background-color: #23BE7B;
+}
+@media only screen and (min-width: 822px) {
+  body main #Process .allInfo .processes {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+}
+body main #Process .allInfo .processes .col-12 {
+  border-radius: 10px;
+  padding: 50px 0 22px 30px;
+}
+body main #Process .allInfo .processes .col-12 .process-image {
+  width: 70px;
+  height: 57px;
+}
+body main #Process .allInfo .processes .col-12 .process-image img {
+  width: 100%;
+}
+body main #Process .allInfo .processes .col-12 .process-name .name1,
+body main #Process .allInfo .processes .col-12 .process-info .name1 {
+  color: #776320;
+}
+body main #Process .allInfo .processes .col-12 .process-name .name2,
+body main #Process .allInfo .processes .col-12 .process-info .name2 {
+  color: #864323;
+}
+body main #Process .allInfo .processes .col-12 .process-name .name3,
+body main #Process .allInfo .processes .col-12 .process-info .name3 {
+  color: #78705C;
+}
+body main #Process .allInfo .processes .col-12 .process-name .name4,
+body main #Process .allInfo .processes .col-12 .process-info .name4 {
+  color: #126940;
+}
+body main #Process .allInfo .processes .col-12 .process-name h2,
+body main #Process .allInfo .processes .col-12 .process-info h2 {
+  font-family: AnekTamil-SemiBold;
+  padding: 20px 0;
+}
+body main #Process .allInfo .processes .col-12 .process-info {
+  margin-top: 100px;
+}
+@media only screen and (max-width: 820px) {
+  body main #Process .allInfo .processes .col-12 .process-info {
+    margin-top: 30px;
+  }
+}
+body main #Process .allInfo .processes .col-12 .process-info p {
+  width: 82%;
+  font-family: AnekTamil-Medium;
+}
+body main #Orchard .info-image {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2E0B1;
+}
+@media only screen and (max-width: 820px) {
+  body main #Orchard .info-image {
+    height: 220px;
+  }
+}
+body main #Orchard .info-image .title-button {
+  width: 50%;
+  position: relative;
+  top: 130px;
+  left: 170px;
+}
+@media only screen and (max-width: 820px) {
+  body main #Orchard .info-image .title-button {
+    top: 40px;
+    width: 100%;
+    left: 0;
+    margin-left: 40px;
+  }
+}
+body main #Orchard .info-image .title-button .title {
+  width: 60%;
+}
+body main #Orchard .info-image .title-button .title p {
+  color: #78705C;
+  line-height: 10px;
+}
+body main #Orchard .info-image .title-button .title h1 {
+  font-family: AnekTamil-SemiBold;
+  font-size: 54px;
+  color: #78705C;
+}
+@media only screen and (max-width: 820px) {
+  body main #Orchard .info-image .title-button .title h1 {
+    font-size: 20px;
+  }
+}
+body main #Orchard .info-image .title-button .button button {
+  border-radius: 20px;
+  padding: 10px 22px;
+  color: #6E7286;
+  background-color: white;
+  border-color: #6E7286;
+}
+@media only screen and (max-width: 820px) {
+  body main #Orchard .info-image .title-button .button button {
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+}
+body main #Orchard .info-image .title-button .button button:hover {
+  color: #78705C;
+  background-color: #F2E0B1;
+  border-color: white;
+}
+body main #Orchard .info-image .orchardImage {
+  width: 778px;
+}
+@media only screen and (max-width: 820px) {
+  body main #Orchard .info-image .orchardImage {
+    display: none;
+  }
+}
+body main #Orchard .info-image .orchardImage img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=base.css.map */

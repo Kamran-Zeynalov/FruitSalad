@@ -1,0 +1,194 @@
+﻿
+@{
+    List<FruitSalad> fruitSalads = ViewBag.FruitSalads;
+    ViewBag.Title = "Home Page";
+}
+
+<section id="FruitCustomize">
+    <div class="customizeAndImage">
+        <div class="customizeImage">
+            <div class="button">
+                <a href="">
+                    <button class="btn btn-light">
+                        Customize your fruit <i class="bi bi-chevron-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="greenSection d-lg-block d-none">
+            <div class="customizeText">
+                <div class="container">
+                    <div class="row">
+                        <div class="text-button col-8">
+                            <div class="text">
+                                <p>Customize step by step.</p>
+                                <h1>
+                                    Customize your own fruit salad with natural ingredients.
+                                </h1>
+                            </div>
+                            <div class="button">
+                                <a href="">
+                                    <button class="btn btn-light">
+                                        Customize your fruit <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="SpecialOffers">
+    <div class="container">
+        <div class="row px-5 mt-4">
+            <div class="specialTitle col-lg-6 col-12">
+                <h1>Special offers</h1>
+            </div>
+            <div class="seeMore col-lg-6 col-12">
+                <p><a href="./shop.html">See more detail</a></p>
+            </div>
+            @foreach (FruitSalad fs in fruitSalads)
+            {
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="image-info">
+                        <div class="image-icon">
+                            <div class="image">
+                                <img src="~/assets/images/@fs.SaladImages.FirstOrDefault().Url" alt="Product">
+                            </div>
+                            <div class="heartIcon">
+                                <i class="bi bi-heart"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="rating">
+                                <div class="star-icon">
+                                    <i class="bi bi-star"></i>
+                                </div>
+                                <div class="point">
+                                    <p>@fs.Rating.ToString("0.##")</p>
+                                </div>
+                            </div>
+
+                            <div class="name-comp">
+                                <h3><a asp-controller="Product" asp-action="Detail" asp-route-id="@fs.Id">@fs.Name</a></h3>
+                                <p>
+                                    @foreach (var f in fs.FruitSaladFruits.ToList())
+                                    {
+                                        @(f.Fruit?.Name + ", ")
+                                    }
+                                </p>
+                            </div>
+                            <div class="dollar-price">
+                                $<span class="price">@fs.Price.ToString("0.##")</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+<section id="Process">
+    <div class="allInfo mt-5">
+        <div class="container">
+            <div class="row process-title-desc">
+                <div class="col-lg-7">
+                    <h2>How the process happen?</h2>
+                </div>
+                <div class="col-lg-5">
+                    <p>
+                        Food waste is an invisible problem that puts a very real strain on our food system
+                        and planet. To show an example, for every 10 pieces of fruit you eat, 19 would need
+                        to be grown.
+                    </p>
+                </div>
+            </div>
+            <div class="row gy-3 processes">
+                <div class="col-12 col-lg-3 processFruits1" data-aos="flip-down">
+                    <div class="process-image">
+                        <img src="~/assets/images/FruitsProcess.png" alt="">
+                    </div>
+                    <div class="process-name">
+                        <h2 class="name1">Fruits</h2>
+                    </div>
+                    <div class="process-info">
+                        <p class="name1">
+                            Omnis iste natus error sit voluptatem accusantium dolorue laudantium,
+                            totam rem
+                            aperiam
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 processFruits2" data-aos="flip-down">
+                    <div class="process-image">
+                        <img src="~/assets/images/customizeFruit.png" alt="">
+                    </div>
+                    <div class="process-name">
+                        <h2 class="name2">Customize</h2>
+                    </div>
+                    <div class="process-info">
+                        <p class="name2">
+                            Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas odit aut.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 processFruits3" data-aos="flip-down">
+                    <div class="process-image">
+                        <img src="~/assets/images/deliveryIcon.png" alt="">
+                    </div>
+                    <div class="process-name">
+                        <h2 class="name3">Delivery</h2>
+                    </div>
+                    <div class="process-info">
+                        <p class="name3">
+                            Modi tempora incidunt ut labore et dolore magnam aliquam quaerat.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 processFruits4" data-aos="flip-down">
+                    <div class="process-image">
+                        <img src="~/assets/images/yourBowl.png" alt="">
+                    </div>
+                    <div class="process-name">
+                        <h2 class="name4">Your Bowl</h2>
+                    </div>
+                    <div class="process-info">
+                        <p class="name4">
+                            Dolores eos qui ratione voluptatem sequi nesciunt. Neque porro uam est, qui dolorem
+                            ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Orchard">
+    <div class="info-image">
+        <div class="title-button">
+            <div class="title">
+                <p>Fresh fruits from the orchard.</p>
+                <h1>
+                    Our monthly fruit club, delivered fresh from the orchard.
+                </h1>
+            </div>
+            <div class="button">
+                <a href="">
+                    <button class="btn btn-light">Learn More <i class="bi bi-chevron-right"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="orchardImage">
+            <img src="~/assets/images/Orchard.png" alt="">
+        </div>
+    </div>
+</section>

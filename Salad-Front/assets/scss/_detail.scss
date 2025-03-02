@@ -1,0 +1,424 @@
+body {
+    main {
+        font-family: "AnekTamil-Medium";
+
+        .salad-background {
+            .passage {
+                margin: 85px 0 10px 3px;
+
+                span {
+                    font-size: 15px;
+
+                    a {
+                        transition: .3s;
+                        color: #A6ABC4;
+                    }
+
+                    a:hover {
+                        color: #23BE7B;
+                    }
+
+                    .home {
+                        color: #A6ABC4;
+                    }
+
+                    .detail {
+                        color: #525666;
+                    }
+                }
+            }
+
+        }
+
+        #Detail {
+            color: #525666;
+
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .name-price {
+                p {
+                    font-size: 21px;
+                }
+            }
+
+            .rating {
+                display: flex;
+
+                .star-icon {
+                    i {
+                        font-size: 14px;
+                        // padding: 0 6px;
+                    }
+                }
+
+                .point {
+                    padding: 0 12px 0 6px;
+                }
+
+                .review {
+                    color: #2EDC87;
+
+                    p {
+                        transition: .3s;
+                        cursor: pointer;
+
+                        i {
+                            font-size: 14px;
+                        }
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .composition {
+                display: flex;
+
+                .fruit {
+                    margin: 0 12px;
+                    border: 1px solid #89E9BC;
+                    border-radius: 24px;
+                    height: 40px;
+                    padding: 15px 16px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: .3s;
+                    font-size: 15px;
+
+                    &:hover {
+                        color: #2EDC87;
+                        border-color: #525666;
+                    }
+
+                    .fruit-name {
+                        p {
+                            color: #A6ABC4;
+                        }
+                    }
+
+                    .icon {
+                        margin: 0 0 16px 6px;
+                        font-size: 10px;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        border: 1px solid #525666;
+                        cursor: pointer;
+
+                        i {
+                            margin: 2px;
+                        }
+                    }
+                }
+            }
+
+            .case-size {
+                width: 100%;
+
+                .select-size {
+                    margin-top: 30px;
+                }
+
+                .sizes {
+                    width: 100%;
+
+                    ul {
+                        list-style: none;
+                        width: 100%;
+
+                        li {
+                            margin-top: 15px;
+                            color: #525666;
+                            border-bottom: 1px solid #d7d7da;
+                            width: 80%;
+                            display: flex;
+                            justify-content: space-between;
+
+                            p {
+                                span {
+                                    color: #A6ABC4;
+                                }
+                            }
+
+                            // input {
+                            //     background-color: transparent;
+                            //     border-radius: 10px;
+                            //     border: 1px solid #A6ABC4;
+                            //     cursor: pointer;
+                            //     display: inline-block;
+                            //     height: 15px;
+                            //     margin-right: 15px;
+                            //     position: relative;
+                            //     width: 15px;
+                            //     -webkit-appearance: none;
+                            // }
+
+                            // input:checked:after {
+                            //     background-color: #89E9BC;
+                            //     border-radius: 25px;
+                            //     content: '';
+                            //     display: block;
+                            //     height: 10.5px;
+                            //     left: 1.7px;
+                            //     position: relative;
+                            //     top: 1.4px;
+                            //     width: 10.5px;
+                            //     border: 1px solid #89E9BC;
+                            // }
+                        }
+                    }
+                }
+
+            }
+
+            .toppings {
+                .add-toppings {
+                    margin-top: 30px;
+                }
+
+                .topping-fruit {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 82%;
+
+                    .image-name {
+                        margin-left: 12px;
+                        padding: 0 8px;
+                        cursor: pointer;
+
+                        &:hover .name {
+                            color: #23BE7B;
+                        }
+
+                        .image {
+                            width: 96px;
+                            height: 84px;
+                            border-radius: 4px;
+                            background-color: #F6F7F9;
+
+                            img {
+                                width: 77px;
+                                height: 66px;
+                                margin: 9px 10px;
+                            }
+                        }
+
+                        .name {
+                            text-align: center;
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+
+            .quantity-order {
+                .name {
+                    margin-top: 22px;
+                }
+
+                .quantity {
+                    margin-left: 10px;
+
+                    input {
+                        text-align: center;
+                        width: 14%;
+                        padding: 6px;
+                        border-radius: 4px;
+                        border: none;
+                        background-color: #EBFBF4;
+                        &:focus{
+                            outline: none;
+                        }
+
+                    }
+                }
+                .order{
+                    display: flex;
+                    margin-top: 20px;
+                    .button{
+                        width: 70%;
+                        button{
+                            width: 95%;
+                            border: none;
+                            height: 60px;
+                            border-radius: 30px;
+                            background-color: #23BE7B;
+                            color: white;
+                            transition: .3s;
+                            &:hover{
+                                background-color: #1b9e65;
+                            }
+                        }
+                    }
+                    .save-icon{
+                        background-color: #F6F7F9;
+                        width: 60px;
+                        height: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 12px;
+                        transition: .3s;
+                        &:hover{
+                            background-color: #ededed;
+                        }
+                        i{
+                            font-size: 31px;
+                            color: #8A8FA5;
+                        }
+                    }
+                }
+            }
+  
+        }
+
+        #Vitamins{
+            margin-top: 80px;
+            .vita{
+                background-color: #F6F7F9;
+                padding: 12px 20px;
+                border-radius: 5px;
+                .title{
+                    margin-top: 14px;
+                }
+                .fruit-info{
+                    display: flex;
+                    
+                    .fruit-name-image{
+                        .name{
+                            h6{
+                                color: #FB4C4C;
+                            }
+                        }
+                        .image{
+                            width: 96px;
+                            height: 84px;
+                            img{
+                                width: 77px;
+                                height: 66px;
+                            }
+                        }
+                    }
+                    .info{
+                        margin: 0 0 0 20px;
+                    }
+                }
+            }
+        }
+
+        #SpecialOffers {
+            padding: 20px 0 70px 0;
+            .specialTitle {
+                h1 {
+                    font-family: AnekTamil-SemiBold;
+                    color: #23BE7B;
+
+                    @media only screen and (max-width: 820px) {
+                        & {
+                            text-align: center;
+
+                        }
+                    }
+                }
+            }
+
+            .seeMore {
+                text-align: end;
+
+                @media only screen and (max-width: 820px) {
+                    & {
+                        margin-top: 0;
+                        text-align: center;
+                    }
+                }
+
+                p {
+                    a {
+                        color: #2EDC87;
+                    }
+                }
+
+            }
+
+            .image-info {
+                margin-top: 25px;
+
+                .image-icon {
+                    position: relative;
+                    width: 288px;
+
+                    .image {
+                        img {
+                            width: 288;
+                            height: 268px;
+                        }
+
+                    }
+
+                    .heartIcon {
+                        padding: 10px;
+                        background-color: #F6F7F9;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 0 0 0 12px;
+
+                        i {
+                            font-size: 20px;
+                            color: #8A8FA5;
+                            transition: .3s;
+                        }
+
+                        i:hover {
+                            color: #2EDC87;
+                        }
+                    }
+                }
+
+                .info {
+                    width: 288px;
+                    background-color: #F9F9F9;
+                    padding: 6px;
+
+                    .rating {
+                        display: flex;
+                        color: #2EDC87;
+
+                        .star-icon {
+                            padding: 0 7px;
+                        }
+                    }
+
+                    .name-comp {
+                        h3 {
+                            a{
+                                color: #525666;
+                                text-decoration: none;
+                            }
+                            font-family: AnekTamil-SemiBold;
+                        }
+
+                        p {
+                            color: #8A8FA5;
+                            font-family: AnekTamil-Regular;
+                        }
+                    }
+
+                    .dollar-price {
+                        color: #6E7286;
+                        font-family: AnekTamil-SemiBold;
+                    }
+                }
+            }
+
+            margin-top: 70px;
+        }
+    }
+}
