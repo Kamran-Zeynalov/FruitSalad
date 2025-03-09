@@ -5652,6 +5652,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DYF8In4wZzG8nPEqImLbccDdxrMSMZDScSX\u002Bhq5oUBE="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1614"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022DYF8In4wZzG8nPEqImLbccDdxrMSMZDScSX\u002Bhq5oUBE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 07 May 2023 06:48:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaladBack/assets/js/JavaScript.diaav5x9kx.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\JavaScript.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"diaav5x9kx"},{"Name":"integrity","Value":"sha256-S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4="},{"Name":"label","Value":"_content/SaladBack/assets/js/JavaScript.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"670"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 15:24:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SaladBack/assets/js/JavaScript.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\JavaScript.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"670"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 15:24:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SaladBack/assets/js/NotFound.b9sz9ldxor.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\NotFound.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

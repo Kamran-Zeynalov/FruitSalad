@@ -469,6 +469,7 @@ wwwroot\assets\images\seeds2.jpg
 wwwroot\assets\images\uzumbanan.png
 wwwroot\assets\images\yourBowl.png
 wwwroot\assets\js\header-footer.js
+wwwroot\assets\js\JavaScript.js
 wwwroot\assets\js\NotFound.js
 wwwroot\assets\js\shop.js
 wwwroot\assets\scss\_basket.scss

@@ -1,11 +1,16 @@
-﻿@model IEnumerable<SaladBack.Core.Fruit>
+﻿@using SaladBack.Core
+@model List<Fruit>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
+<form action="#" class="search" method="post">
+<h1 style="display:inline-block; color:white; margin-right:12px;">Index
+</h1>
+    <input class="form-control search-input" type="type" name="Name" value="" placeholder="Search" style="width:30%" />
+    <input type="submit" class="btn btn-success"/>
+</form>
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -13,29 +18,18 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                   Name
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Desc)
+                Desc
             </th>
             <th></th>
         </tr>
     </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Desc)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+    <tbody id="partials">
+        @Html.Partial("_FruitPartial")
     </tbody>
 </table>
+
+<script src="~/assets/js/JavaScript.js">
+</script>

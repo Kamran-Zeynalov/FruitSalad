@@ -28,12 +28,36 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Fruit/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xGcnVpdFxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Shared/_FruitPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5PZlNhbGFkc1xWaWV3c1xTaGFyZWRcX0ZydWl0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kzeyn.DESKTOP-NMNFVKM/OneDrive/Masaüstü/Projects/SaladBack/SaladBack/Areas/AdminOfSalads/Views/Shared/_Layout.cshtml]

@@ -1885,6 +1885,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\yourBowl.png"
     },
     {
+      "Id": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\assets\\js\\JavaScript.js"
+    },
+    {
       "Id": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\NotFound.js",
       "PackagePath": "staticwebassets\\assets\\js\\NotFound.js"
     },

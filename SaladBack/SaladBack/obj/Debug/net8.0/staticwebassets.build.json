@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YGE7unNoNs2bcsgVxHczbgSyZBUc+WY3tDq+P6sfj4w=",
+  "Hash": "eQcjcDS8m/7JEXpGtAGzQc9DTEDn/ACjjTb+7yUrt60=",
   "Source": "SaladBack",
   "BasePath": "_content/SaladBack",
   "Mode": "Default",
@@ -9948,6 +9948,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\header-footer.js"
+    },
+    {
+      "Identity": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\JavaScript.js",
+      "SourceId": "SaladBack",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\",
+      "BasePath": "_content/SaladBack",
+      "RelativePath": "assets/js/JavaScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "diaav5x9kx",
+      "Integrity": "S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\JavaScript.js"
     },
     {
       "Identity": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\NotFound.js",
@@ -49872,6 +49893,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-DYF8In4wZzG8nPEqImLbccDdxrMSMZDScSX+hq5oUBE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/JavaScript.diaav5x9kx.js",
+      "AssetFile": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 15:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "diaav5x9kx"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/JavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/JavaScript.js",
+      "AssetFile": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masaüstü\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\JavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 15:24:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S6m/LXwXH6mmDrNF49oCC3rFjol6y6neIaD3JWVlxZ4="
         }
       ]
     },

@@ -1,0 +1,58 @@
+﻿@using SaladBack.Core
+@model List<Fruit>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form action="Search" method="post">
+    <h1 style="display:inline-block; color:white; margin-right:12px;">
+        Index
+    </h1>
+    <input class="form-control" type="text" name="Name" value="" placeholder="Search" style="width:30%" />
+    <input type="submit" class="btn btn-success" />
+</form>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Desc
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody> 
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desc)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Detail" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    window.fetch('Fruit/Search')
+    .then((response) => response.json())
+    .then((data) => {
+      var div = document.createElement("div");
+      div.innerHTML += data;
+    });
+
+</script>
