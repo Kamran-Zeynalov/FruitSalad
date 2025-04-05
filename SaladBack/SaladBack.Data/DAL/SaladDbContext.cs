@@ -13,6 +13,7 @@ namespace SaladBack.Data.DAL
     {
         public DbSet<Fruit> Fruits { get; set; }
         public DbSet<Nut> Nuts  { get; set; }
+        public DbSet<SaladImage> SaladImage   { get; set; }
         public DbSet<FruitSalad> FruitSalads { get; set; }
         public DbSet<FruitSaladFruit> FruitSaladFruits { get; set; }
         public DbSet<Size> Sizes { get; set; }

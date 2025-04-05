@@ -1,5 +1,5 @@
-﻿@model SaladBack.Core.Fruit
-
+﻿@using SaladBack.Core
+@model Fruit
 @{
     ViewData["Title"] = "Create";
 }
@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
@@ -23,6 +23,13 @@
                 <span asp-validation-for="Desc" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control img-input" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+                <div style="width:200px" class="img-preview-container"></div>
+
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -32,4 +39,6 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<script src="~/assets/js/JavaScript.js"></script>
 

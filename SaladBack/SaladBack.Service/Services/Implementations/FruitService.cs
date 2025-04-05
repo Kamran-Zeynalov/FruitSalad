@@ -38,7 +38,8 @@ namespace SaladBack.Service.Services.Implementations
 
         public async Task<List<Fruit>> GetAll()
         {
-            return await _context.Fruits.ToListAsync(); 
+            return await _context.Fruits.Include(f => f.FruitSaladFruits)
+                .ThenInclude(fsf =>fsf.FruitSalad).ToListAsync(); 
         }
 
         public Task Update(string name)

@@ -1,7 +1,6 @@
 ﻿@using SaladBack.Core
 @model List<Fruit>
 
-
 @foreach (var item in Model)
 {
     <tr>
@@ -10,6 +9,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Desc)
+        </td>
+        <td>
+             <img style="width:80px" src="~/assets/images/@item.ImageUrl" alt="@item.Name"/>   
         </td>
         <td>
             <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

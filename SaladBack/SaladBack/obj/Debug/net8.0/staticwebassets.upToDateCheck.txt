@@ -406,6 +406,10 @@ wwwroot\assets\css\base.css.map
 wwwroot\assets\fonts\AnekTamil-Medium.ttf
 wwwroot\assets\fonts\AnekTamil-Regular.ttf
 wwwroot\assets\fonts\AnekTamil-SemiBold.ttf
+wwwroot\assets\images\252card3.png
+wwwroot\assets\images\274card3.png
+wwwroot\assets\images\735card4.png
+wwwroot\assets\images\856card3.png
 wwwroot\assets\images\account-background.png
 wwwroot\assets\images\appStore.png
 wwwroot\assets\images\banansefteli.png

@@ -76,70 +76,18 @@
                             </h4>
                         </div>
                         <div class="topping-fruit">
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit1.png" alt="">
+                           @foreach (var fruit in ViewBag.AllFruits)
+                            {
+                                <div class="image-name">
+                                    <div class="image">
+                                        <img src="~/assets/images/@fruit.ImageUrl" alt="">
+                                    </div>
+                                    <div class="name">
+                                        <p>@fruit.Name</p>
+                                    </div>
                                 </div>
-                                <div class="name">
-                                    <p>apple</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit8.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>strawberrie</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit7.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>raspberrie</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit6.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>kiwi</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit5.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>almond milk</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit4.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>almond</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit3.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>coconut</p>
-                                </div>
-                            </div>
-                            <div class="image-name">
-                                <div class="image">
-                                    <img src="~/assets/images/fruit2.png" alt="">
-                                </div>
-                                <div class="name">
-                                    <p>granota</p>
-                                </div>
-                            </div>
+                            }
+                          
                         </div>
                     </div>
                     <div class="quantity-order">

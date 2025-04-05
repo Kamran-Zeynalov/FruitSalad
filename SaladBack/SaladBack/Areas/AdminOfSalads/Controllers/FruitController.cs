@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SaladBack.Core;
 using SaladBack.Data.DAL;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using SaladBack.Service.Extentions;
 
 namespace SaladBack.Areas.AdminOfSalads.Controllers
 {
@@ -9,14 +10,16 @@ namespace SaladBack.Areas.AdminOfSalads.Controllers
     public class FruitController : Controller
     {
         private readonly SaladDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public FruitController(SaladDbContext context)
+        public FruitController(SaladDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
         public IActionResult Index()
         {
-            List<Fruit> fruits = _context.Fruits.ToList();
+            List<Fruit> fruits = _context.Fruits.OrderByDescending(p => p.Id).ToList();
             return View(fruits);
         }
 
@@ -34,11 +37,22 @@ namespace SaladBack.Areas.AdminOfSalads.Controllers
                 ModelState.AddModelError("", "Same Value");
                 return View();
             };
+            if (!ModelState.IsValid)
+            {
+                ModelState.AddModelError("", "Check Value");
+                return View();
+            }
+            
+            //_env.WebRootPath/assets/images
+            string imagePath = Path.Combine(_env.WebRootPath, "assets", "images");
+            fruit.ImageUrl = fruit.Image.AddImage(imagePath);
+
             _context.Fruits.Add(fruit);
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
         [HttpGet]
+
         public IActionResult Edit(int id) {
             Fruit? fruit = _context.Fruits.FirstOrDefault(f => f.Id == id);
             return View(fruit);
@@ -46,7 +60,7 @@ namespace SaladBack.Areas.AdminOfSalads.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(int? id, string name, string desc)
+        public async Task<IActionResult> Edit(int? id, string name, string desc, IFormFile image)
         {
             if (id is null) return BadRequest();
             Fruit? fruit = _context.Fruits.FirstOrDefault(f => f.Id == id);
@@ -93,10 +107,10 @@ namespace SaladBack.Areas.AdminOfSalads.Controllers
         
         public IActionResult Search(string name)
         {
-            
             List<Fruit> fruits = _context.Fruits.Where(f =>f.Name.ToLower().Contains(name.ToLower())).ToList();
-
             return PartialView("_FruitPartial", fruits.ToList());
         }
+
+
     }
 }

@@ -33,6 +33,9 @@ namespace SaladBack.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -40,27 +43,6 @@ namespace SaladBack.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Fruits");
-                });
-
-            modelBuilder.Entity("SaladBack.Core.Models.FruitImage", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("FruitId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Url")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FruitId");
-
-                    b.ToTable("FruitImage");
                 });
 
             modelBuilder.Entity("SaladBack.Core.Models.FruitSalad", b =>
@@ -175,17 +157,6 @@ namespace SaladBack.Data.Migrations
                     b.ToTable("Nuts");
                 });
 
-            modelBuilder.Entity("SaladBack.Core.Models.FruitImage", b =>
-                {
-                    b.HasOne("SaladBack.Core.Fruit", "Fruit")
-                        .WithMany("FruitImages")
-                        .HasForeignKey("FruitId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Fruit");
-                });
-
             modelBuilder.Entity("SaladBack.Core.Models.FruitSaladFruit", b =>
                 {
                     b.HasOne("SaladBack.Core.Fruit", "Fruit")
@@ -229,8 +200,6 @@ namespace SaladBack.Data.Migrations
 
             modelBuilder.Entity("SaladBack.Core.Fruit", b =>
                 {
-                    b.Navigation("FruitImages");
-
                     b.Navigation("FruitSaladFruits");
                 });
 

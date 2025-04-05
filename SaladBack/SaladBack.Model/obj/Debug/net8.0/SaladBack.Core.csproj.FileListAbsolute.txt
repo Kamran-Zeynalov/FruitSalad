@@ -10,3 +10,4 @@ C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.
 C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Core.pdb
 C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\ref\SaladBack.Core.dll
 C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Core.sourcelink.json
+C:\Users\kzeyn.DESKTOP-NMNFVKM\OneDrive\Masaüstü\Projects\SaladBack\SaladBack.Model\obj\Debug\net8.0\SaladBack.Core.csproj.AssemblyReference.cache
