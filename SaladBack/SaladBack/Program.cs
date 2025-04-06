@@ -18,7 +18,6 @@ namespace SaladBack
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
             });
             builder.Services.AddScoped<IFruitService, FruitService>();
-            builder.Services.AddScoped<IFruitSaladService, FruitSaladService>();
             var app = builder.Build();
 
             if (!app.Environment.IsDevelopment())

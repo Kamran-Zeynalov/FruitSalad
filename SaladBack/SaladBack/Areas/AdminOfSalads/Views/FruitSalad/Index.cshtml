@@ -24,6 +24,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Count)
             </th>
+            <th>
+                Images
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -42,10 +45,17 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Count)
             </td>
+                <td>
+                    <img style="width:50px" src="~/assets/images/@item.SaladImages?.FirstOrDefault()?.Url"/>
+                </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Update" asp-route-id="@item.Id">Edit</a> |
+                <form method="post" asp-action="Delete">
+                        <input type="hidden" asp-for="@item.Id" />
+                        <input type="hidden" name="id" value="@item.Id" />
+                <button class="btn btn-danger">Delete</button>
+
+                </form>
             </td>
         </tr>
 }

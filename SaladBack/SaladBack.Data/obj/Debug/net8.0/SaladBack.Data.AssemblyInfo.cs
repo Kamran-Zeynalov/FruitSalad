@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SaladBack.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6cba76366a169c6d25ab432ab060100b4404b17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cb36c801c519434c09531c62ade6486abce872b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SaladBack.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SaladBack.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

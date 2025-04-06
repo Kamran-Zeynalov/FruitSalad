@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\areas\\adminofsalads\\views\\fruitsalad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\areas\\adminofsalads\\views\\fruitsalad\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\areas\\adminofsalads\\controllers\\fruitsaladcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\areas\\adminofsalads\\controllers\\fruitsaladcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAEB0D81-E0F7-4652-83F3-42686275A557}|SaladBack.Model\\SaladBack.Core.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback.model\\models\\saladimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAEB0D81-E0F7-4652-83F3-42686275A557}|SaladBack.Model\\SaladBack.Core.csproj|solutionrelative:saladback.model\\models\\saladimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\areas\\adminofsalads\\views\\fruitsalad\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\areas\\adminofsalads\\views\\fruitsalad\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\wwwroot\\assets\\js\\image.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\wwwroot\\assets\\js\\image.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC4CAF46-A27F-402B-A66F-11DAD23EAE0A}|SaladBack.Service\\SaladBack.Service.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback.service\\extentions\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC4CAF46-A27F-402B-A66F-11DAD23EAE0A}|SaladBack.Service\\SaladBack.Service.csproj|solutionrelative:saladback.service\\extentions\\fileupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\areas\\adminofsalads\\views\\fruitsalad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\areas\\adminofsalads\\views\\fruitsalad\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAEB0D81-E0F7-4652-83F3-42686275A557}|SaladBack.Model\\SaladBack.Core.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback.model\\models\\fruitsalad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAEB0D81-E0F7-4652-83F3-42686275A557}|SaladBack.Model\\SaladBack.Core.csproj|solutionrelative:saladback.model\\models\\fruitsalad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC4CAF46-A27F-402B-A66F-11DAD23EAE0A}|SaladBack.Service\\SaladBack.Service.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback.service\\services\\implementations\\fruitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC4CAF46-A27F-402B-A66F-11DAD23EAE0A}|SaladBack.Service\\SaladBack.Service.csproj|solutionrelative:saladback.service\\services\\implementations\\fruitservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E6A0F29-F596-45E1-B31B-F77FA38E5411}|SaladBack.Data\\SaladBack.Data.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback.data\\dal\\saladdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E6A0F29-F596-45E1-B31B-F77FA38E5411}|SaladBack.Data\\SaladBack.Data.csproj|solutionrelative:saladback.data\\dal\\saladdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|c:\\users\\kzeyn.desktop-nmnfvkm\\onedrive\\masa\u00FCst\u00FC\\projects\\saladback\\saladback\\areas\\adminofsalads\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81EAEB4D-F97E-445C-AECC-8673D5510137}|SaladBack\\SaladBack.csproj|solutionrelative:saladback\\areas\\adminofsalads\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SaladDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Data\\DAL\\SaladDbContext.cs",
-              "RelativeDocumentMoniker": "SaladBack.Data\\DAL\\SaladDbContext.cs",
-              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Data\\DAL\\SaladDbContext.cs",
-              "RelativeToolTip": "SaladBack.Data\\DAL\\SaladDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T14:18:48.507Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Index.cshtml",
+              "RelativeDocumentMoniker": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Index.cshtml",
+              "RelativeToolTip": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T15:04:05.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SaladImage.cs",
-              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Model\\Models\\SaladImage.cs",
-              "RelativeDocumentMoniker": "SaladBack.Model\\Models\\SaladImage.cs",
-              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Model\\Models\\SaladImage.cs",
-              "RelativeToolTip": "SaladBack.Model\\Models\\SaladImage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T14:14:09.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FruitService.cs",
-              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Service\\Services\\Implementations\\FruitService.cs",
-              "RelativeDocumentMoniker": "SaladBack.Service\\Services\\Implementations\\FruitService.cs",
-              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Service\\Services\\Implementations\\FruitService.cs",
-              "RelativeToolTip": "SaladBack.Service\\Services\\Implementations\\FruitService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T14:02:14.461Z",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SaladBack\\Areas\\AdminOfSalads\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SaladBack\\Areas\\AdminOfSalads\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T14:15:35.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FruitSalad.cs",
-              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Model\\Models\\FruitSalad.cs",
-              "RelativeDocumentMoniker": "SaladBack.Model\\Models\\FruitSalad.cs",
-              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Model\\Models\\FruitSalad.cs",
-              "RelativeToolTip": "SaladBack.Model\\Models\\FruitSalad.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:28:52.32Z",
+              "Title": "image.js",
+              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\image.js",
+              "RelativeDocumentMoniker": "SaladBack\\wwwroot\\assets\\js\\image.js",
+              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\wwwroot\\assets\\js\\image.js",
+              "RelativeToolTip": "SaladBack\\wwwroot\\assets\\js\\image.js",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-06T13:45:55.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Update.cshtml",
+              "RelativeDocumentMoniker": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Update.cshtml",
+              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Update.cshtml",
+              "RelativeToolTip": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Update.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T12:35:48.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileUpload.cs",
+              "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Service\\Extentions\\FileUpload.cs",
+              "RelativeDocumentMoniker": "SaladBack.Service\\Extentions\\FileUpload.cs",
+              "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack.Service\\Extentions\\FileUpload.cs",
+              "RelativeToolTip": "SaladBack.Service\\Extentions\\FileUpload.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:13:22.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Create.cshtml",
               "RelativeDocumentMoniker": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Create.cshtml",
               "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Create.cshtml",
               "RelativeToolTip": "SaladBack\\Areas\\AdminOfSalads\\Views\\FruitSalad\\Create.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T12:46:22.137Z",
+              "WhenOpened": "2025-04-06T12:50:14.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FruitSaladController.cs",
               "DocumentMoniker": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Controllers\\FruitSaladController.cs",
               "RelativeDocumentMoniker": "SaladBack\\Areas\\AdminOfSalads\\Controllers\\FruitSaladController.cs",
               "ToolTip": "C:\\Users\\kzeyn.DESKTOP-NMNFVKM\\OneDrive\\Masa\u00FCst\u00FC\\Projects\\SaladBack\\SaladBack\\Areas\\AdminOfSalads\\Controllers\\FruitSaladController.cs",
               "RelativeToolTip": "SaladBack\\Areas\\AdminOfSalads\\Controllers\\FruitSaladController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAADwvygAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAqwPsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T11:54:16.541Z",
+              "WhenOpened": "2025-04-06T11:42:54.874Z",
               "EditorCaption": ""
             }
           ]

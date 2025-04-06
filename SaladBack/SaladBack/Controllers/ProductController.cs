@@ -1,17 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SaladBack.Core.Models;
+using SaladBack.Data.DAL;
 using SaladBack.Service.Services.Interfaces;
 
 namespace SaladBack.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly IFruitSaladService _fruitSaladService;
+        private readonly SaladDbContext _context;
         private readonly IFruitService _fruitService;
 
-        public ProductController(IFruitSaladService fruitSaladService, IFruitService fruitService)
+        public ProductController(SaladDbContext context, IFruitService fruitService)
         {
-            _fruitSaladService = fruitSaladService;
+            _context = context;
             _fruitService = fruitService;
         }
 
@@ -22,7 +24,7 @@ namespace SaladBack.Controllers
 
         public async Task<IActionResult> Detail(int id)
         {
-            FruitSalad fruitSalad = await _fruitSaladService.Get(id);
+            FruitSalad? fruitSalad = await _context.FruitSalads.FirstOrDefaultAsync(fs => fs.Id ==id);
             ViewBag.AllFruits = await _fruitService.GetAll();
             return View(fruitSalad);
         }

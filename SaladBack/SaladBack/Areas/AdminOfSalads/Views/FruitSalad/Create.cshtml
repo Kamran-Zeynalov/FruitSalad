@@ -1,16 +1,15 @@
 ﻿@using SaladBack.Core
 @using SaladBack.Core.Models
-@model SaladBack.Core.Models.FruitSalad
+@using SaladBack.ViewModel
+@model FruitSaladVM
 
 @{
     ViewData["Title"] = "Create";
-    List<Fruit> fruits = ViewBag.Fruits;
-    List<Size> sizes = ViewBag.Sizes;
 }
 
 <h1>Create</h1>
 
-<h4>FruitSalad</h4>
+<h4>Fruit Salad</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -37,21 +36,21 @@
                 <span asp-validation-for="Count" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label  class="control-label">Fruits</label>
-                <select asp-for="FruitId" asp-items="@new SelectList(fruits, nameof(Fruit.Id), nameof(Fruit.Name))" id="02" class="form-control">
+                <label class="control-label">Fruits</label>
+                <select asp-for="FruitId" asp-items="@(new SelectList(Model.Fruits, nameof(Fruit.Id), nameof(Fruit.Name)))" multiple class="form-control">
                 </select>
                 <span asp-validation-for="FruitId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label class="control-label">Fruits</label>
-                <select asp-for="SizeId" asp-items="@new SelectList(sizes, nameof(Size.Id), nameof(Size.Name))" id="02" class="form-control">
-                    </select>
+                <label class="control-label">Sizes</label>
+                <select asp-for="SizeId" asp-items="@(new SelectList(Model.Sizes, nameof(Size.Id), nameof(Size.Name)))" multiple class="form-control">
+                </select>
                 <span asp-validation-for="SizeId" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SaladImages" class="control-label"></label>
-                <input multiple asp-for="SaladImages" type="file"  class="form-control" />
-                <span asp-validation-for="SaladImages" class="text-danger"></span>
+                <label asp-for="Files" class="control-label"></label>
+                <input asp-for="Files" type="file" multiple class="form-control" />
+                <span asp-validation-for="Files" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
@@ -63,4 +62,3 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
