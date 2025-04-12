@@ -104,7 +104,7 @@ namespace SaladBack.Areas.AdminOfSalads.Controllers
                 vm.Sizes = _context.Sizes.AsNoTracking().ToList();
                 return View(vm);
             }
-            fruitSalad.Sizes.Add(size);
+            fruitSalad.Sizes?.Add(size);
 
             //if (vm.SizeId != null && vm.SizeId.Any())
             //{
